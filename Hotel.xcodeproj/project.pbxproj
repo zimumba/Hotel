@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1315C9311DE1A48800F9CADF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1315C9301DE1A48800F9CADF /* main.m */; };
+		1315C9341DE1A48800F9CADF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1315C9331DE1A48800F9CADF /* AppDelegate.m */; };
+		1315C9371DE1A48800F9CADF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1315C9361DE1A48800F9CADF /* ViewController.m */; };
+		1315C93A1DE1A48800F9CADF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1315C9381DE1A48800F9CADF /* Main.storyboard */; };
+		1315C93C1DE1A48800F9CADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1315C93B1DE1A48800F9CADF /* Assets.xcassets */; };
+		1315C93F1DE1A48800F9CADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1315C93D1DE1A48800F9CADF /* LaunchScreen.storyboard */; };
+		1315C94A1DE1A48800F9CADF /* HotelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1315C9491DE1A48800F9CADF /* HotelTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1315C9461DE1A48800F9CADF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1315C9241DE1A48800F9CADF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1315C92B1DE1A48800F9CADF;
+			remoteInfo = Hotel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1315C92C1DE1A48800F9CADF /* Hotel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hotel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1315C9301DE1A48800F9CADF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1315C9321DE1A48800F9CADF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1315C9331DE1A48800F9CADF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1315C9351DE1A48800F9CADF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1315C9361DE1A48800F9CADF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1315C9391DE1A48800F9CADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1315C93B1DE1A48800F9CADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1315C93E1DE1A48800F9CADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1315C9401DE1A48800F9CADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1315C9451DE1A48800F9CADF /* HotelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1315C9491DE1A48800F9CADF /* HotelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotelTests.m; sourceTree = "<group>"; };
+		1315C94B1DE1A48800F9CADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1315C9291DE1A48800F9CADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1315C9421DE1A48800F9CADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1315C9231DE1A48800F9CADF = {
+			isa = PBXGroup;
+			children = (
+				1315C92E1DE1A48800F9CADF /* Hotel */,
+				1315C9481DE1A48800F9CADF /* HotelTests */,
+				1315C92D1DE1A48800F9CADF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1315C92D1DE1A48800F9CADF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1315C92C1DE1A48800F9CADF /* Hotel.app */,
+				1315C9451DE1A48800F9CADF /* HotelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1315C92E1DE1A48800F9CADF /* Hotel */ = {
+			isa = PBXGroup;
+			children = (
+				1315C9321DE1A48800F9CADF /* AppDelegate.h */,
+				1315C9331DE1A48800F9CADF /* AppDelegate.m */,
+				1315C9351DE1A48800F9CADF /* ViewController.h */,
+				1315C9361DE1A48800F9CADF /* ViewController.m */,
+				1315C9381DE1A48800F9CADF /* Main.storyboard */,
+				1315C93B1DE1A48800F9CADF /* Assets.xcassets */,
+				1315C93D1DE1A48800F9CADF /* LaunchScreen.storyboard */,
+				1315C9401DE1A48800F9CADF /* Info.plist */,
+				1315C92F1DE1A48800F9CADF /* Supporting Files */,
+			);
+			path = Hotel;
+			sourceTree = "<group>";
+		};
+		1315C92F1DE1A48800F9CADF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1315C9301DE1A48800F9CADF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1315C9481DE1A48800F9CADF /* HotelTests */ = {
+			isa = PBXGroup;
+			children = (
+				1315C9491DE1A48800F9CADF /* HotelTests.m */,
+				1315C94B1DE1A48800F9CADF /* Info.plist */,
+			);
+			path = HotelTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1315C92B1DE1A48800F9CADF /* Hotel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1315C94E1DE1A48800F9CADF /* Build configuration list for PBXNativeTarget "Hotel" */;
+			buildPhases = (
+				1315C9281DE1A48800F9CADF /* Sources */,
+				1315C9291DE1A48800F9CADF /* Frameworks */,
+				1315C92A1DE1A48800F9CADF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hotel;
+			productName = Hotel;
+			productReference = 1315C92C1DE1A48800F9CADF /* Hotel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1315C9441DE1A48800F9CADF /* HotelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1315C9511DE1A48800F9CADF /* Build configuration list for PBXNativeTarget "HotelTests" */;
+			buildPhases = (
+				1315C9411DE1A48800F9CADF /* Sources */,
+				1315C9421DE1A48800F9CADF /* Frameworks */,
+				1315C9431DE1A48800F9CADF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1315C9471DE1A48800F9CADF /* PBXTargetDependency */,
+			);
+			name = HotelTests;
+			productName = HotelTests;
+			productReference = 1315C9451DE1A48800F9CADF /* HotelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1315C9241DE1A48800F9CADF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = aoli;
+				TargetAttributes = {
+					1315C92B1DE1A48800F9CADF = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					1315C9441DE1A48800F9CADF = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1315C92B1DE1A48800F9CADF;
+					};
+				};
+			};
+			buildConfigurationList = 1315C9271DE1A48800F9CADF /* Build configuration list for PBXProject "Hotel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1315C9231DE1A48800F9CADF;
+			productRefGroup = 1315C92D1DE1A48800F9CADF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1315C92B1DE1A48800F9CADF /* Hotel */,
+				1315C9441DE1A48800F9CADF /* HotelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1315C92A1DE1A48800F9CADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1315C93F1DE1A48800F9CADF /* LaunchScreen.storyboard in Resources */,
+				1315C93C1DE1A48800F9CADF /* Assets.xcassets in Resources */,
+				1315C93A1DE1A48800F9CADF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1315C9431DE1A48800F9CADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1315C9281DE1A48800F9CADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1315C9371DE1A48800F9CADF /* ViewController.m in Sources */,
+				1315C9341DE1A48800F9CADF /* AppDelegate.m in Sources */,
+				1315C9311DE1A48800F9CADF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1315C9411DE1A48800F9CADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1315C94A1DE1A48800F9CADF /* HotelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1315C9471DE1A48800F9CADF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1315C92B1DE1A48800F9CADF /* Hotel */;
+			targetProxy = 1315C9461DE1A48800F9CADF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1315C9381DE1A48800F9CADF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1315C9391DE1A48800F9CADF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1315C93D1DE1A48800F9CADF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1315C93E1DE1A48800F9CADF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1315C94C1DE1A48800F9CADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1315C94D1DE1A48800F9CADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1315C94F1DE1A48800F9CADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hotel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aoli.Hotel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1315C9501DE1A48800F9CADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hotel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aoli.Hotel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1315C9521DE1A48800F9CADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HotelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aoli.HotelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hotel.app/Hotel";
+			};
+			name = Debug;
+		};
+		1315C9531DE1A48800F9CADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HotelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aoli.HotelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hotel.app/Hotel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1315C9271DE1A48800F9CADF /* Build configuration list for PBXProject "Hotel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1315C94C1DE1A48800F9CADF /* Debug */,
+				1315C94D1DE1A48800F9CADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1315C94E1DE1A48800F9CADF /* Build configuration list for PBXNativeTarget "Hotel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1315C94F1DE1A48800F9CADF /* Debug */,
+				1315C9501DE1A48800F9CADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1315C9511DE1A48800F9CADF /* Build configuration list for PBXNativeTarget "HotelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1315C9521DE1A48800F9CADF /* Debug */,
+				1315C9531DE1A48800F9CADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1315C9241DE1A48800F9CADF /* Project object */;
+}
