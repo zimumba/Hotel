@@ -1,4 +1,5 @@
 PODS:
+  - FastEasyMapping (1.1.1)
   - libextobjc (0.4.1):
     - libextobjc/EXTADT (= 0.4.1)
     - libextobjc/EXTConcreteProtocol (= 0.4.1)
@@ -36,11 +37,13 @@ PODS:
   - libextobjc/UmbrellaHeader (0.4.1)
 
 DEPENDENCIES:
+  - FastEasyMapping
   - libextobjc
 
 SPEC CHECKSUMS:
+  FastEasyMapping: 831fa5ee2c7038542b9fee90aee4fd8f6b959f1c
   libextobjc: a650fc1bf489a3d3a9bc2e621efa3e1006fc5471
 
-PODFILE CHECKSUM: bed90da4f09584ab73f2d708110623c9f70dd832
+PODFILE CHECKSUM: 5d52f57fa6437d08028e076fc5b23409fd76e978
 
 COCOAPODS: 1.1.1

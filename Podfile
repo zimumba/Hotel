@@ -6,6 +6,8 @@ use_frameworks!
 
 def shared_pods
   pod 'libextobjc'
+
+  pod 'FastEasyMapping'
 end
 
 target ‘Hotel’ do

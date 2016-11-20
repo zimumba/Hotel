@@ -7,97 +7,207 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09AB1872880D4EFBB74128BA4750732C /* EXTNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CC8D248B875837974B776E78CB119E /* EXTNil.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		22FBA0C63189C5C040E5D0276C249654 /* EXTSafeCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = BA671C9D0FAF8123C70907E474FCB7A5 /* EXTSafeCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B1DDBEAC72B2F6801B5EDD14135922C /* NSInvocation+EXT.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3C435E4A75F5EFA2D04FB64D893700 /* NSInvocation+EXT.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		3E3760B1FAA86C37717C941046353D42 /* EXTConcreteProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E62DBA2A78B3AC97D9540751AFFA2A0 /* EXTConcreteProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		41D1D964024F8DF56C31935D9E68AB67 /* NSMethodSignature+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = 4697E20F47D35A642DFEFC8D75AD3038 /* NSMethodSignature+EXT.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C457F34C4B8CB54B396690ED745A7CA /* EXTADT.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E05E40F3A2E0E7EF435DCC4B215E3A /* EXTADT.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D6D4F41B86D913A4F189D8D181FB1E0 /* EXTSafeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A1275BA6FCA7795E6C251F1578D5E9 /* EXTSafeCategory.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		52592E8981967FFFAA21D9F464554432 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D64E023DD48B3E47E868AC3A4EAB3D11 /* EXTRuntimeExtensions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		5939471BBFBEA287B73B433653281519 /* extobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 740B8E09E74E7DB553209CCCDF0BC39B /* extobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76EE3DEAEF3244AB9531CE63B437D6CD /* EXTNil.h in Headers */ = {isa = PBXBuildFile; fileRef = 35111E09963257A6700142DEA8B57CAE /* EXTNil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87E29332436B406E211A59645A62CDFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		891E95F0DD0A2F9F85E808BA43447394 /* EXTADT.m in Sources */ = {isa = PBXBuildFile; fileRef = E80DD89ED3C9C0ACBE58FA8B5CA038EB /* EXTADT.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9B4BEAD2F11E453A0F2E24D25AA6AB99 /* EXTSynthesize.h in Headers */ = {isa = PBXBuildFile; fileRef = B58B99253A497CEF44956CD4917E611C /* EXTSynthesize.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4EDBC2324A95E8E801EB77C352D3E7C /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1D1AF9C55113ABD6AF8ADC0ED1A7EE /* EXTScope.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		AAA92F06ACDE0079DFA2D6DB1F277F60 /* libextobjc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F5555C25A1AF3EB991446EAD9F44E4 /* libextobjc-dummy.m */; };
-		ABB38A60F3FE1FB7DDFA820360C21012 /* Pods-Hotel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2550687565273CAE17B5D235B63B49C6 /* Pods-Hotel-dummy.m */; };
-		ABC45AE2E250934BCAD409416C95F92D /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = BE394CF05DC71B84C7F44DC6B1B858CF /* EXTKeyPathCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C23AFBA12270EB0882024D8F6630A80B /* Pods-Hotel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F1EAB4E78DB6CA7CA7F3F0A92F9198 /* Pods-Hotel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C77DEEBC1DB408E8ADA9C454CD8E0707 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FA486A1A706AD9668C157C7F1ABC9BB /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBD4FFB4B9292D4EEF154290102DF531 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		CEB29BC46E9F33C9132BC1EDEEAB8654 /* EXTSelectorChecking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCABBE853077842C989760F8BF9F6DB /* EXTSelectorChecking.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		D28EC0A669436CB79B291800668FF449 /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = B394AC7A5FDA23FDA4166E6BF37C35C5 /* EXTScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D41BD225CCDDB264512B8F80955B897B /* NSInvocation+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = 97ECF79E1EB2CA523294511ADE51FF20 /* NSInvocation+EXT.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E03C8DCD305D93D87B82B9FE55156099 /* EXTSelectorChecking.h in Headers */ = {isa = PBXBuildFile; fileRef = 783482486048B27D2AA394E666E422E4 /* EXTSelectorChecking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E4AC830597E50A8C40BF64E15CEB00EE /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 809670B6C58E473A5A8A3AE2C709054D /* EXTRuntimeExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E55665E04C51174052E57727BCD7C5F7 /* libextobjc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B371334F82C4512327D08132A3238FAB /* libextobjc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8C02FAB231FDA1458DC8C99C7C60BB0 /* NSMethodSignature+EXT.m in Sources */ = {isa = PBXBuildFile; fileRef = B4646C856B26F9C02F86549F20584A28 /* NSMethodSignature+EXT.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F30EBDF41BB0A6DC7E83EDB35348C13A /* EXTConcreteProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 020071E1E41879BFD7BFF970387E4B1D /* EXTConcreteProtocol.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		03369B4CA8DE8BB3AB3346F63C3D21FD /* FEMRelationship.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AC3D51C59E268CDD050185F4A0D3AB /* FEMRelationship.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		053C8D811AAB69AC80C0994418778268 /* FEMObjectDeserializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5255A75F225DA86014C1AA00E05A7B05 /* FEMObjectDeserializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09AB1872880D4EFBB74128BA4750732C /* EXTNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AED641DA1CB79CA463449AE73A69C66 /* EXTNil.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		11D0273041D2B8B0E68CC96DD069237D /* Pods-Hotel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2550687565273CAE17B5D235B63B49C6 /* Pods-Hotel-dummy.m */; };
+		12384ED237026C27CC182EB9FC0781FE /* FEMMappingUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCFC3D3299D32CC4DAEE8E022D37172 /* FEMMappingUtility.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		18AD5782ACC41724AD3F91AB6B943192 /* FEMMergeableCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DAB6B7D4A5A1F8956FB2D0FA0087F1D /* FEMMergeableCollection.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		196FDABCE90B9860ED3D6D30FDB1715C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF85E5A74BF2C5F729F6419654402FBC /* Foundation.framework */; };
+		1C61A08B0A4AC01E7BC79103D41930E1 /* FEMExcludableCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 75EED579F53DBE1C4471F591273E382D /* FEMExcludableCollection.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		22FBA0C63189C5C040E5D0276C249654 /* EXTSafeCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = AA95F0B0BB3FDC031DE03C0A85D922D5 /* EXTSafeCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27F7F5220CE382E5B9C855CC87F041E9 /* FastEasyMapping-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB160EE97BF9A9D25E3375B078AA4456 /* FastEasyMapping-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29E7AA454332D6C49BDCD6604B227E4B /* FEMManagedObjectStore.h in Headers */ = {isa = PBXBuildFile; fileRef = B0DDDAC4F15225D59E229135A15C940C /* FEMManagedObjectStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AC29213AB028084EBFA10CCF360B991 /* FEMRelationshipAssignmentContext.h in Headers */ = {isa = PBXBuildFile; fileRef = E91378B7D3EE27658AF3AB02D1E9609A /* FEMRelationshipAssignmentContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D03941CA19774B249E55DBB873B56B6 /* FEMMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 269D84410B29608AF54C1ED09FBBDB13 /* FEMMapping.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		306A5121B53879195052301016F66917 /* FEMDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54615AECAB60AE82FBF2C975F8807858 /* FEMDeserializer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		325687E17EAF712C2719B6076BB60F5B /* FEMTypeIntrospection.h in Headers */ = {isa = PBXBuildFile; fileRef = F80EAB86D6E2A64D51CE102B6460D617 /* FEMTypeIntrospection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32B153A9B317C6785F3E9C74CB1DF291 /* NSObject+FEMKVCExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = FD9D754068F93EBF802B6D913A098FFF /* NSObject+FEMKVCExtension.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3987E90AEB2C806B1E95D924FA67C198 /* FEMManagedObjectStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530C78EF6192EB84B251F038668DAB9 /* FEMManagedObjectStore.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3B1DDBEAC72B2F6801B5EDD14135922C /* NSInvocation+EXT.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5AB053C25D26239E8D805D324B0682 /* NSInvocation+EXT.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3E3760B1FAA86C37717C941046353D42 /* EXTConcreteProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = BEB21B0580AC8BD62DC5A8D694E4B5B3 /* EXTConcreteProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FF41F9F6027D4C3B7F8779A56BF34C0 /* FEMMappingUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = C018C7CB247AFF86935B24E4BF36035F /* FEMMappingUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41D1D964024F8DF56C31935D9E68AB67 /* NSMethodSignature+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = 27577A57DE0F096A7AEE2F46C16E37ED /* NSMethodSignature+EXT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		428038F844A51A53C724C484FBF522AC /* NSArray+FEMPropertyRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BF096AF7516A72813FE5B21507FEA2C /* NSArray+FEMPropertyRepresentation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4C457F34C4B8CB54B396690ED745A7CA /* EXTADT.h in Headers */ = {isa = PBXBuildFile; fileRef = B607A9205215C7BA7AFD55C285CBA5B3 /* EXTADT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D6D4F41B86D913A4F189D8D181FB1E0 /* EXTSafeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F31E8EA0DA95C3F853AFF6EE5F66296 /* EXTSafeCategory.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		52592E8981967FFFAA21D9F464554432 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D037F322B7FF1F508A3EAE156A152C7 /* EXTRuntimeExtensions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5939471BBFBEA287B73B433653281519 /* extobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 914DFC1993F84EBEC45BCD4C3EDEDF99 /* extobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FD3487B9B2BB2D6F23FEBB79925EB09 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E84538505F21AD441B87E2C82C53E5 /* CoreData.framework */; };
+		696B9F817FA67E5AC0D350FA8AA9CE4F /* FEMRepresentationUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = FA7BB7AB632EC348D9DB7D09297EAB00 /* FEMRepresentationUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71FA5A9555DA0AD054F0B4D8BCD36F81 /* FEMSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = F7720F3D1CECE5F9E9A4178AAEA60ED2 /* FEMSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76BE44BB70463F2C594D4420A126283F /* FEMObjectStore.h in Headers */ = {isa = PBXBuildFile; fileRef = E53A8A66ECB41E1E00DEBF7D5862E8CB /* FEMObjectStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76EE3DEAEF3244AB9531CE63B437D6CD /* EXTNil.h in Headers */ = {isa = PBXBuildFile; fileRef = D5F4ECAF7D2BD209AE262EEB4251BDE7 /* EXTNil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76FFF88CA5776340799086D015CD1E2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF85E5A74BF2C5F729F6419654402FBC /* Foundation.framework */; };
+		7C0716D582C189602AC6B0093770FC0C /* FEMManagedObjectCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A04C2544D308A7D7B2E6D7E0C4898AF9 /* FEMManagedObjectCache.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7FF84D3C0329772FDFE89FDFFEFDDCBD /* FEMDeserializer.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C05C916930207F069E57B4478B2F72 /* FEMDeserializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		842D0B198790F11CDCA77795E7EBA455 /* FEMRepresentationUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 364750CDA537AD1E3C699EECD6D4DD06 /* FEMRepresentationUtility.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		85C5D83AD76D41D401925EC519A990C4 /* FEMManagedObjectDeserializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3382E778400032E8EEC6150CAD44B062 /* FEMManagedObjectDeserializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		891E95F0DD0A2F9F85E808BA43447394 /* EXTADT.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA8EBEC0794EA3CC20963E7022BF8BC /* EXTADT.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8DFDDA122796618874CD39B2A481C74C /* FastEasyMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = E1573FBA0F31C88EF27560A41DBB1A45 /* FastEasyMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91FAAC5676BA309C2FBD16805728CA67 /* FEMRelationshipAssignmentContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 274215E41619FFE7BD6EFDFC44A5AC17 /* FEMRelationshipAssignmentContext.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		98126150B5BED536BE9DD76DB1D07880 /* Pods-Hotel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F1EAB4E78DB6CA7CA7F3F0A92F9198 /* Pods-Hotel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B4BEAD2F11E453A0F2E24D25AA6AB99 /* EXTSynthesize.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E3BCD49A8B0C1182D3563BDA269167A /* EXTSynthesize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CF6AE8B7F865AA4F7CE9A584E7B61AC /* FEMManagedObjectMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FA57776A2FB5A68635DDFB1A3C25938 /* FEMManagedObjectMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A17246CF2F846B116ADA067F8C4442EA /* FEMManagedObjectCache.h in Headers */ = {isa = PBXBuildFile; fileRef = A27E68EC7C49A400BFFF4788B9DB03D7 /* FEMManagedObjectCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3EC97AD883E791094CDB79690078011 /* FEMRelationship.h in Headers */ = {isa = PBXBuildFile; fileRef = 9842E4867D24E664681ABBA4DD0B325D /* FEMRelationship.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4EDBC2324A95E8E801EB77C352D3E7C /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD8419CE8D25F23343B8EE15AC64C67 /* EXTScope.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A66D705CE70053CDF0355367627F52CC /* FEMMergeableCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB6B637D575DFF8128FA997BACCF775 /* FEMMergeableCollection.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AA83F878318C300D045B8CC831283414 /* FEMMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 009B822F1031BDC7034D1C6142328867 /* FEMMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAA92F06ACDE0079DFA2D6DB1F277F60 /* libextobjc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6886D9EF72B279E5F334A67195C40348 /* libextobjc-dummy.m */; };
+		ABC45AE2E250934BCAD409416C95F92D /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A1C3B0E061180EE92CAF7973BF37D75 /* EXTKeyPathCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBF48FCE534884AFF60E9F04F3596AF3 /* FEMRelationshipAssignmentContext+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 3530CF0C2CAFBE36587338E04620B8AA /* FEMRelationshipAssignmentContext+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C77DEEBC1DB408E8ADA9C454CD8E0707 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 938C71481A994BD644A620FE9B515508 /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD4FFB4B9292D4EEF154290102DF531 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF85E5A74BF2C5F729F6419654402FBC /* Foundation.framework */; };
+		CEB29BC46E9F33C9132BC1EDEEAB8654 /* EXTSelectorChecking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7706A3A1DFEE0CFEE28433070AD974 /* EXTSelectorChecking.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D28EC0A669436CB79B291800668FF449 /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 0884A9840881DFAED69E198E2438B5F8 /* EXTScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3C86E9F04505693FC06B42CCFA47764 /* FEMSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5111D86DC5AB731731929F4543A7B905 /* FEMSerializer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D41BD225CCDDB264512B8F80955B897B /* NSInvocation+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BBB2AAD42354AE6DA6EF998EBA661E8 /* NSInvocation+EXT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D92E323D9A1B74299DA87C7C8891FFF3 /* FEMAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EE0EC108B071DE683E3CDA24D794997 /* FEMAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D991381A3A26C9DB0FE3C4435879D24A /* FEMExcludableCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B63B9771DACEAA40330AE6C7E6F6D97 /* FEMExcludableCollection.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DB38C931F29ED52FAD8BD81E05620CAE /* FEMObjectMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CE8DE5436CCFB39B2BBCF8518CFB98E /* FEMObjectMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC43A11936BBE51AB342F537829DA8E2 /* FEMAssignmentPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = C90D168D434366959AA1C30578D2DBA0 /* FEMAssignmentPolicy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DD126ADF9FCBA8C3E022357500F505BE /* NSObject+FEMKVCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 250104D3B18E7D80620209194F7D2CBB /* NSObject+FEMKVCExtension.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E03C8DCD305D93D87B82B9FE55156099 /* EXTSelectorChecking.h in Headers */ = {isa = PBXBuildFile; fileRef = 989AA1CF168B56F8C3F98BEFD2FB8A27 /* EXTSelectorChecking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0D0BEAA9E0357209B82FC3678921386 /* FEMAssignmentPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = E02401D7D32DC78B2184F9383A9A1E5E /* FEMAssignmentPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4AC830597E50A8C40BF64E15CEB00EE /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D553E51894580B4B8481F18D3F57E1A6 /* EXTRuntimeExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E55665E04C51174052E57727BCD7C5F7 /* libextobjc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9C5264BA53548B9D2320F8A028196A6 /* libextobjc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5966F7E4FFEC0053F0ED6B5618F2252 /* FastEasyMapping-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3ACE207D0F133DC86B8CCFD93F316E /* FastEasyMapping-dummy.m */; };
+		E63EA4DB7FF67B4A3670C65C5463C0DB /* NSArray+FEMPropertyRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CF509D90A66C204E9748CF77F04E87 /* NSArray+FEMPropertyRepresentation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E8BEDD06D6E8C2AB477A311CC66DD5DC /* FEMAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 283FF5FEE528950472F11D17521A8380 /* FEMAttribute.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E8C02FAB231FDA1458DC8C99C7C60BB0 /* NSMethodSignature+EXT.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E385F6435C9981BF05D6CCD9FA8FB6 /* NSMethodSignature+EXT.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E8D88AC8667F7B1835EEC9D2C091EDB7 /* FEMProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 10381A94B632C4CB776B056541C36806 /* FEMProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E99C37AAFB2F9AE8B2EECEF5A912C108 /* FEMObjectStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C89AFBC355F552F76E0C89219785BFD /* FEMObjectStore.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EB468F8241B53F62E297CEDCB8462ADF /* FEMTypeIntrospection.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE5A6A013026E6A16B03F4F7F75C622 /* FEMTypeIntrospection.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F30EBDF41BB0A6DC7E83EDB35348C13A /* EXTConcreteProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C5179F57EF85189D56B70C23269441 /* EXTConcreteProtocol.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		54AD0CA99F30BA2BF7528C43F614F1F1 /* PBXContainerItemProxy */ = {
+		5145C0429B3F442F2CD797172D3E1B13 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4EE053CAA134CA7A6FA356E4059CAD1A;
 			remoteInfo = libextobjc;
 		};
+		53DA4AB70F91918A127D7C133758250D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F76FA9CFE7FBAF75B8B2FA82D9C572C;
+			remoteInfo = FastEasyMapping;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		020071E1E41879BFD7BFF970387E4B1D /* EXTConcreteProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTConcreteProtocol.m; path = extobjc/EXTConcreteProtocol.m; sourceTree = "<group>"; };
-		1FB218AC2B84401F4D2C918F6564789E /* libextobjc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libextobjc.xcconfig; sourceTree = "<group>"; };
+		009B822F1031BDC7034D1C6142328867 /* FEMMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FEMMapping.h; path = FastEasyMapping/Source/Core/Mapping/FEMMapping.h; sourceTree = "<group>"; };
+		0884A9840881DFAED69E198E2438B5F8 /* EXTScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTScope.h; path = extobjc/EXTScope.h; sourceTree = "<group>"; };
+		10381A94B632C4CB776B056541C36806 /* FEMProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FEMProperty.h; path = FastEasyMapping/Source/Core/Mapping/FEMProperty.h; sourceTree = "<group>"; };
+		15AF139FB9CE5EC26A8740EDBE2648D9 /* FastEasyMapping.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FastEasyMapping.xcconfig; sourceTree = "<group>"; };
+		1629170B198C2C37C995A6583090CCB8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1839A71E6A2446E0C49C509CA82208FE /* libextobjc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libextobjc-prefix.pch"; sourceTree = "<group>"; };
+		1BF096AF7516A72813FE5B21507FEA2C /* NSArray+FEMPropertyRepresentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+FEMPropertyRepresentation.h"; path = "FastEasyMapping/Source/Extensions/Foundation/NSArray+FEMPropertyRepresentation.h"; sourceTree = "<group>"; };
+		1CCFC3D3299D32CC4DAEE8E022D37172 /* FEMMappingUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FEMMappingUtility.m; path = FastEasyMapping/Source/Utility/FEMMappingUtility.m; sourceTree = "<group>"; };
 		215361571B93418C2C0ED3856E1618D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		250104D3B18E7D80620209194F7D2CBB /* NSObject+FEMKVCExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+FEMKVCExtension.m"; path = "FastEasyMapping/Source/Extensions/Foundation/NSObject+FEMKVCExtension.m"; sourceTree = "<group>"; };
 		2550687565273CAE17B5D235B63B49C6 /* Pods-Hotel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hotel-dummy.m"; sourceTree = "<group>"; };
-		26346E7124F56460BCE2CCD50CDA8CED /* libextobjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = libextobjc.framework; path = libextobjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		33E05E40F3A2E0E7EF435DCC4B215E3A /* EXTADT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTADT.h; path = extobjc/EXTADT.h; sourceTree = "<group>"; };
-		35111E09963257A6700142DEA8B57CAE /* EXTNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTNil.h; path = extobjc/EXTNil.h; sourceTree = "<group>"; };
-		3FA486A1A706AD9668C157C7F1ABC9BB /* metamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = metamacros.h; path = extobjc/metamacros.h; sourceTree = "<group>"; };
-		4697E20F47D35A642DFEFC8D75AD3038 /* NSMethodSignature+EXT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMethodSignature+EXT.h"; path = "extobjc/NSMethodSignature+EXT.h"; sourceTree = "<group>"; };
+		269D84410B29608AF54C1ED09FBBDB13 /* FEMMapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FEMMapping.m; path = FastEasyMapping/Source/Core/Mapping/FEMMapping.m; sourceTree = "<group>"; };
+		274215E41619FFE7BD6EFDFC44A5AC17 /* FEMRelationshipAssignmentContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FEMRelationshipAssignmentContext.m; path = "FastEasyMapping/Source/Core/Assignment Policy/FEMRelationshipAssignmentContext.m"; sourceTree = "<group>"; };
+		27577A57DE0F096A7AEE2F46C16E37ED /* NSMethodSignature+EXT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMethodSignature+EXT.h"; path = "extobjc/NSMethodSignature+EXT.h"; sourceTree = "<group>"; };
+		283FF5FEE528950472F11D17521A8380 /* FEMAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FEMAttribute.m; path = FastEasyMapping/Source/Core/Mapping/FEMAttribute.m; sourceTree = "<group>"; };
+		2C89AFBC355F552F76E0C89219785BFD /* FEMObjectStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FEMObjectStore.m; path = FastEasyMapping/Source/Core/Store/FEMObjectStore.m; sourceTree = "<group>"; };
+		2CB99A96D0D2312053474C311616E927 /* FastEasyMapping.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FastEasyMapping.modulemap; sourceTree = "<group>"; };
+		31C5179F57EF85189D56B70C23269441 /* EXTConcreteProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTConcreteProtocol.m; path = extobjc/EXTConcreteProtocol.m; sourceTree = "<group>"; };
+		3382E778400032E8EEC6150CAD44B062 /* FEMManagedObjectDeserializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FEMManagedObjectDeserializer.h; path = FastEasyMapping/Source/Core/Deserializer/FEMManagedObjectDeserializer.h; sourceTree = "<group>"; };
+		3530CF0C2CAFBE36587338E04620B8AA /* FEMRelationshipAssignmentContext+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FEMRelationshipAssignmentContext+Internal.h"; path = "FastEasyMapping/Source/Core/Assignment Policy/FEMRelationshipAssignmentContext+Internal.h"; sourceTree = "<group>"; };
+		364750CDA537AD1E3C699EECD6D4DD06 /* FEMRepresentationUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FEMRepresentationUtility.m; path = FastEasyMapping/Source/Utility/FEMRepresentationUtility.m; sourceTree = "<group>"; };
+		3AED641DA1CB79CA463449AE73A69C66 /* EXTNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTNil.m; path = extobjc/EXTNil.m; sourceTree = "<group>"; };
+		3E3BCD49A8B0C1182D3563BDA269167A /* EXTSynthesize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTSynthesize.h; path = extobjc/EXTSynthesize.h; sourceTree = "<group>"; };
+		4052C096365C28EC8226F968FD281F5C /* FastEasyMapping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FastEasyMapping.framework; path = FastEasyMapping.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		487BC1D9FB14BC258C36DB1C92FED5AE /* Pods-Hotel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hotel.debug.xcconfig"; sourceTree = "<group>"; };
-		4A1D1AF9C55113ABD6AF8ADC0ED1A7EE /* EXTScope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTScope.m; path = extobjc/EXTScope.m; sourceTree = "<group>"; };
-		5B5FFCAC89524A572A97A874BAF97B16 /* libextobjc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libextobjc-prefix.pch"; sourceTree = "<group>"; };
-		5E62DBA2A78B3AC97D9540751AFFA2A0 /* EXTConcreteProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTConcreteProtocol.h; path = extobjc/EXTConcreteProtocol.h; sourceTree = "<group>"; };
-		64CC8D248B875837974B776E78CB119E /* EXTNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTNil.m; path = extobjc/EXTNil.m; sourceTree = "<group>"; };
-		6B3C435E4A75F5EFA2D04FB64D893700 /* NSInvocation+EXT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+EXT.m"; path = "extobjc/NSInvocation+EXT.m"; sourceTree = "<group>"; };
-		740B8E09E74E7DB553209CCCDF0BC39B /* extobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = extobjc.h; path = extobjc/extobjc.h; sourceTree = "<group>"; };
-		783482486048B27D2AA394E666E422E4 /* EXTSelectorChecking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTSelectorChecking.h; path = extobjc/EXTSelectorChecking.h; sourceTree = "<group>"; };
-		809670B6C58E473A5A8A3AE2C709054D /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTRuntimeExtensions.h; path = extobjc/EXTRuntimeExtensions.h; sourceTree = "<group>"; };
-		8CCABBE853077842C989760F8BF9F6DB /* EXTSelectorChecking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTSelectorChecking.m; path = extobjc/EXTSelectorChecking.m; sourceTree = "<group>"; };
+		4B63B9771DACEAA40330AE6C7E6F6D97 /* FEMExcludableCollection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FEMExcludableCollection.m; path = FastEasyMapping/Source/Extensions/Collection/FEMExcludableCollection.m; sourceTree = "<group>"; };
+		5111D86DC5AB731731929F4543A7B905 /* FEMSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FEMSerializer.m; path = FastEasyMapping/Source/Core/Serializer/FEMSerializer.m; sourceTree = "<group>"; };
+		5255A75F225DA86014C1AA00E05A7B05 /* FEMObjectDeserializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FEMObjectDeserializer.h; path = FastEasyMapping/Source/Core/Deserializer/FEMObjectDeserializer.h; sourceTree = "<group>"; };
+		54615AECAB60AE82FBF2C975F8807858 /* FEMDeserializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FEMDeserializer.m; path = FastEasyMapping/Source/Core/Deserializer/FEMDeserializer.m; sourceTree = "<group>"; };
+		5CE8DE5436CCFB39B2BBCF8518CFB98E /* FEMObjectMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FEMObjectMapping.h; path = FastEasyMapping/Source/Core/Mapping/FEMObjectMapping.h; sourceTree = "<group>"; };
+		5D037F322B7FF1F508A3EAE156A152C7 /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTRuntimeExtensions.m; path = extobjc/EXTRuntimeExtensions.m; sourceTree = "<group>"; };
+		6530C78EF6192EB84B251F038668DAB9 /* FEMManagedObjectStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FEMManagedObjectStore.m; path = FastEasyMapping/Source/Core/Store/FEMManagedObjectStore.m; sourceTree = "<group>"; };
+		66A4A8BE7E198E97814294F9B4AC4183 /* FastEasyMapping-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FastEasyMapping-prefix.pch"; sourceTree = "<group>"; };
+		6886D9EF72B279E5F334A67195C40348 /* libextobjc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libextobjc-dummy.m"; sourceTree = "<group>"; };
+		68CF509D90A66C204E9748CF77F04E87 /* NSArray+FEMPropertyRepresentation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+FEMPropertyRepresentation.m"; path = "FastEasyMapping/Source/Extensions/Foundation/NSArray+FEMPropertyRepresentation.m"; sourceTree = "<group>"; };
+		6BA8EBEC0794EA3CC20963E7022BF8BC /* EXTADT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTADT.m; path = extobjc/EXTADT.m; sourceTree = "<group>"; };
+		75EED579F53DBE1C4471F591273E382D /* FEMExcludableCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FEMExcludableCollection.h; path = FastEasyMapping/Source/Extensions/Collection/FEMExcludableCollection.h; sourceTree = "<group>"; };
+		7D7706A3A1DFEE0CFEE28433070AD974 /* EXTSelectorChecking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTSelectorChecking.m; path = extobjc/EXTSelectorChecking.m; sourceTree = "<group>"; };
+		7DAB6B7D4A5A1F8956FB2D0FA0087F1D /* FEMMergeableCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FEMMergeableCollection.h; path = FastEasyMapping/Source/Extensions/Collection/FEMMergeableCollection.h; sourceTree = "<group>"; };
+		7EE0EC108B071DE683E3CDA24D794997 /* FEMAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FEMAttribute.h; path = FastEasyMapping/Source/Core/Mapping/FEMAttribute.h; sourceTree = "<group>"; };
+		84AC3D51C59E268CDD050185F4A0D3AB /* FEMRelationship.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FEMRelationship.m; path = FastEasyMapping/Source/Core/Mapping/FEMRelationship.m; sourceTree = "<group>"; };
+		8A1C3B0E061180EE92CAF7973BF37D75 /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTKeyPathCoding.h; path = extobjc/EXTKeyPathCoding.h; sourceTree = "<group>"; };
+		8BBB2AAD42354AE6DA6EF998EBA661E8 /* NSInvocation+EXT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+EXT.h"; path = "extobjc/NSInvocation+EXT.h"; sourceTree = "<group>"; };
+		8F31E8EA0DA95C3F853AFF6EE5F66296 /* EXTSafeCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTSafeCategory.m; path = extobjc/EXTSafeCategory.m; sourceTree = "<group>"; };
+		8FA57776A2FB5A68635DDFB1A3C25938 /* FEMManagedObjectMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FEMManagedObjectMapping.h; path = FastEasyMapping/Source/Core/Mapping/FEMManagedObjectMapping.h; sourceTree = "<group>"; };
+		914DFC1993F84EBEC45BCD4C3EDEDF99 /* extobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = extobjc.h; path = extobjc/extobjc.h; sourceTree = "<group>"; };
+		938C71481A994BD644A620FE9B515508 /* metamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = metamacros.h; path = extobjc/metamacros.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97ECF79E1EB2CA523294511ADE51FF20 /* NSInvocation+EXT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+EXT.h"; path = "extobjc/NSInvocation+EXT.h"; sourceTree = "<group>"; };
+		96E08A97D6A1EAE3596E9BFA5B047F31 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9842E4867D24E664681ABBA4DD0B325D /* FEMRelationship.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FEMRelationship.h; path = FastEasyMapping/Source/Core/Mapping/FEMRelationship.h; sourceTree = "<group>"; };
+		989AA1CF168B56F8C3F98BEFD2FB8A27 /* EXTSelectorChecking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTSelectorChecking.h; path = extobjc/EXTSelectorChecking.h; sourceTree = "<group>"; };
 		9E733187B9C8C525DA3D1C7C647398C8 /* Pods-Hotel-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hotel-frameworks.sh"; sourceTree = "<group>"; };
-		A377973207865200E8831798CF57F1F6 /* libextobjc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = libextobjc.modulemap; sourceTree = "<group>"; };
+		A04C2544D308A7D7B2E6D7E0C4898AF9 /* FEMManagedObjectCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FEMManagedObjectCache.m; path = FastEasyMapping/Source/Core/Cache/FEMManagedObjectCache.m; sourceTree = "<group>"; };
+		A1C73FA1BCFEFDEC164EF9E63C47D853 /* libextobjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = libextobjc.framework; path = libextobjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27E68EC7C49A400BFFF4788B9DB03D7 /* FEMManagedObjectCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FEMManagedObjectCache.h; path = FastEasyMapping/Source/Core/Cache/FEMManagedObjectCache.h; sourceTree = "<group>"; };
+		A5E385F6435C9981BF05D6CCD9FA8FB6 /* NSMethodSignature+EXT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMethodSignature+EXT.m"; path = "extobjc/NSMethodSignature+EXT.m"; sourceTree = "<group>"; };
 		A727D5C41925E65ACC041177A4DDABB3 /* Pods-Hotel-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hotel-resources.sh"; sourceTree = "<group>"; };
-		B371334F82C4512327D08132A3238FAB /* libextobjc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libextobjc-umbrella.h"; sourceTree = "<group>"; };
-		B394AC7A5FDA23FDA4166E6BF37C35C5 /* EXTScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTScope.h; path = extobjc/EXTScope.h; sourceTree = "<group>"; };
-		B4646C856B26F9C02F86549F20584A28 /* NSMethodSignature+EXT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMethodSignature+EXT.m"; path = "extobjc/NSMethodSignature+EXT.m"; sourceTree = "<group>"; };
-		B58B99253A497CEF44956CD4917E611C /* EXTSynthesize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTSynthesize.h; path = extobjc/EXTSynthesize.h; sourceTree = "<group>"; };
+		AA95F0B0BB3FDC031DE03C0A85D922D5 /* EXTSafeCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTSafeCategory.h; path = extobjc/EXTSafeCategory.h; sourceTree = "<group>"; };
+		ADE5A6A013026E6A16B03F4F7F75C622 /* FEMTypeIntrospection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FEMTypeIntrospection.m; path = FastEasyMapping/Source/Utility/FEMTypeIntrospection.m; sourceTree = "<group>"; };
+		B0DDDAC4F15225D59E229135A15C940C /* FEMManagedObjectStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FEMManagedObjectStore.h; path = FastEasyMapping/Source/Core/Store/FEMManagedObjectStore.h; sourceTree = "<group>"; };
 		B5F1EAB4E78DB6CA7CA7F3F0A92F9198 /* Pods-Hotel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hotel-umbrella.h"; sourceTree = "<group>"; };
-		BA671C9D0FAF8123C70907E474FCB7A5 /* EXTSafeCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTSafeCategory.h; path = extobjc/EXTSafeCategory.h; sourceTree = "<group>"; };
-		BE394CF05DC71B84C7F44DC6B1B858CF /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTKeyPathCoding.h; path = extobjc/EXTKeyPathCoding.h; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D5F5555C25A1AF3EB991446EAD9F44E4 /* libextobjc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libextobjc-dummy.m"; sourceTree = "<group>"; };
-		D64E023DD48B3E47E868AC3A4EAB3D11 /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTRuntimeExtensions.m; path = extobjc/EXTRuntimeExtensions.m; sourceTree = "<group>"; };
+		B607A9205215C7BA7AFD55C285CBA5B3 /* EXTADT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTADT.h; path = extobjc/EXTADT.h; sourceTree = "<group>"; };
+		B7ED03FA34502BC176785E981D16AA35 /* libextobjc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = libextobjc.modulemap; sourceTree = "<group>"; };
+		BEB21B0580AC8BD62DC5A8D694E4B5B3 /* EXTConcreteProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTConcreteProtocol.h; path = extobjc/EXTConcreteProtocol.h; sourceTree = "<group>"; };
+		C018C7CB247AFF86935B24E4BF36035F /* FEMMappingUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FEMMappingUtility.h; path = FastEasyMapping/Source/Utility/FEMMappingUtility.h; sourceTree = "<group>"; };
+		C026C41846733F5050B262C309E0B2FA /* Pods_Hotel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Hotel.framework; path = "Pods-Hotel.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90D168D434366959AA1C30578D2DBA0 /* FEMAssignmentPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FEMAssignmentPolicy.m; path = "FastEasyMapping/Source/Core/Assignment Policy/FEMAssignmentPolicy.m"; sourceTree = "<group>"; };
+		D553E51894580B4B8481F18D3F57E1A6 /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTRuntimeExtensions.h; path = extobjc/EXTRuntimeExtensions.h; sourceTree = "<group>"; };
+		D5F4ECAF7D2BD209AE262EEB4251BDE7 /* EXTNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTNil.h; path = extobjc/EXTNil.h; sourceTree = "<group>"; };
 		DE9B0957A247C446E26A3EA00CF2DD1E /* Pods-Hotel-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hotel-acknowledgements.plist"; sourceTree = "<group>"; };
+		E02401D7D32DC78B2184F9383A9A1E5E /* FEMAssignmentPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FEMAssignmentPolicy.h; path = "FastEasyMapping/Source/Core/Assignment Policy/FEMAssignmentPolicy.h"; sourceTree = "<group>"; };
 		E05A05138D18BDCDAAF42A34A9E7903F /* Pods-Hotel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hotel.release.xcconfig"; sourceTree = "<group>"; };
-		E80DD89ED3C9C0ACBE58FA8B5CA038EB /* EXTADT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTADT.m; path = extobjc/EXTADT.m; sourceTree = "<group>"; };
-		E900B1CA6761C86F01240BFB2FAE4C9D /* Pods_Hotel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Hotel.framework; path = "Pods-Hotel.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0D7D822D30943EDB6BD795993BF2D28 /* libextobjc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libextobjc.xcconfig; sourceTree = "<group>"; };
+		E1573FBA0F31C88EF27560A41DBB1A45 /* FastEasyMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FastEasyMapping.h; path = FastEasyMapping/Source/FastEasyMapping.h; sourceTree = "<group>"; };
+		E2C05C916930207F069E57B4478B2F72 /* FEMDeserializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FEMDeserializer.h; path = FastEasyMapping/Source/Core/Deserializer/FEMDeserializer.h; sourceTree = "<group>"; };
+		E53A8A66ECB41E1E00DEBF7D5862E8CB /* FEMObjectStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FEMObjectStore.h; path = FastEasyMapping/Source/Core/Store/FEMObjectStore.h; sourceTree = "<group>"; };
+		E7E84538505F21AD441B87E2C82C53E5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		E91378B7D3EE27658AF3AB02D1E9609A /* FEMRelationshipAssignmentContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FEMRelationshipAssignmentContext.h; path = "FastEasyMapping/Source/Core/Assignment Policy/FEMRelationshipAssignmentContext.h"; sourceTree = "<group>"; };
+		E9C5264BA53548B9D2320F8A028196A6 /* libextobjc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libextobjc-umbrella.h"; sourceTree = "<group>"; };
+		EBB6B637D575DFF8128FA997BACCF775 /* FEMMergeableCollection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FEMMergeableCollection.m; path = FastEasyMapping/Source/Extensions/Collection/FEMMergeableCollection.m; sourceTree = "<group>"; };
+		ED3ACE207D0F133DC86B8CCFD93F316E /* FastEasyMapping-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FastEasyMapping-dummy.m"; sourceTree = "<group>"; };
 		F0692DB0065D0497917EED0BE4B46E4A /* Pods-Hotel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Hotel.modulemap"; sourceTree = "<group>"; };
 		F16817807A469DE639A85E3B0406AA59 /* Pods-Hotel-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hotel-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F1BCA1E149FD2F089EBC22E98F05575D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4A1275BA6FCA7795E6C251F1578D5E9 /* EXTSafeCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTSafeCategory.m; path = extobjc/EXTSafeCategory.m; sourceTree = "<group>"; };
+		F7720F3D1CECE5F9E9A4178AAEA60ED2 /* FEMSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FEMSerializer.h; path = FastEasyMapping/Source/Core/Serializer/FEMSerializer.h; sourceTree = "<group>"; };
+		F80EAB86D6E2A64D51CE102B6460D617 /* FEMTypeIntrospection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FEMTypeIntrospection.h; path = FastEasyMapping/Source/Utility/FEMTypeIntrospection.h; sourceTree = "<group>"; };
+		FA7BB7AB632EC348D9DB7D09297EAB00 /* FEMRepresentationUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FEMRepresentationUtility.h; path = FastEasyMapping/Source/Utility/FEMRepresentationUtility.h; sourceTree = "<group>"; };
+		FB160EE97BF9A9D25E3375B078AA4456 /* FastEasyMapping-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FastEasyMapping-umbrella.h"; sourceTree = "<group>"; };
+		FD9D754068F93EBF802B6D913A098FFF /* NSObject+FEMKVCExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+FEMKVCExtension.h"; path = "FastEasyMapping/Source/Extensions/Foundation/NSObject+FEMKVCExtension.h"; sourceTree = "<group>"; };
+		FE5AB053C25D26239E8D805D324B0682 /* NSInvocation+EXT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+EXT.m"; path = "extobjc/NSInvocation+EXT.m"; sourceTree = "<group>"; };
+		FF85E5A74BF2C5F729F6419654402FBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FFD8419CE8D25F23343B8EE15AC64C67 /* EXTScope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTScope.m; path = extobjc/EXTScope.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		751342395C643E649FB8DDDC754D5FF3 /* Frameworks */ = {
+		04A839D3E898A7D0C74C37229977FE23 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87E29332436B406E211A59645A62CDFA /* Foundation.framework in Frameworks */,
+				76FFF88CA5776340799086D015CD1E2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966A6406E3DBC7D43122995E63F89567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD3487B9B2BB2D6F23FEBB79925EB09 /* CoreData.framework in Frameworks */,
+				196FDABCE90B9860ED3D6D30FDB1715C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,13 +222,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		083F4124C02DC302B18B892247B53AFC /* EXTScope */ = {
+		00EB68FC6FE05752E8D58E4B51E74F14 /* EXTSynthesize */ = {
 			isa = PBXGroup;
 			children = (
-				B394AC7A5FDA23FDA4166E6BF37C35C5 /* EXTScope.h */,
-				4A1D1AF9C55113ABD6AF8ADC0ED1A7EE /* EXTScope.m */,
+				3E3BCD49A8B0C1182D3563BDA269167A /* EXTSynthesize.h */,
 			);
-			name = EXTScope;
+			name = EXTSynthesize;
+			sourceTree = "<group>";
+		};
+		043109B45AE7D56593118E44D3818AB4 /* NSMethodSignature+EXT */ = {
+			isa = PBXGroup;
+			children = (
+				27577A57DE0F096A7AEE2F46C16E37ED /* NSMethodSignature+EXT.h */,
+				A5E385F6435C9981BF05D6CCD9FA8FB6 /* NSMethodSignature+EXT.m */,
+			);
+			name = "NSMethodSignature+EXT";
 			sourceTree = "<group>";
 		};
 		0BD3184A6A82F55DC6AE50AF4986FF77 /* Targets Support Files */ = {
@@ -129,119 +247,164 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		0C989B6096EA4125B4435E47C5FF3441 /* EXTSelectorChecking */ = {
+		17C001962A0C64A5CA32350384D0C3DD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				783482486048B27D2AA394E666E422E4 /* EXTSelectorChecking.h */,
-				8CCABBE853077842C989760F8BF9F6DB /* EXTSelectorChecking.m */,
+				2CB99A96D0D2312053474C311616E927 /* FastEasyMapping.modulemap */,
+				15AF139FB9CE5EC26A8740EDBE2648D9 /* FastEasyMapping.xcconfig */,
+				ED3ACE207D0F133DC86B8CCFD93F316E /* FastEasyMapping-dummy.m */,
+				66A4A8BE7E198E97814294F9B4AC4183 /* FastEasyMapping-prefix.pch */,
+				FB160EE97BF9A9D25E3375B078AA4456 /* FastEasyMapping-umbrella.h */,
+				96E08A97D6A1EAE3596E9BFA5B047F31 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FastEasyMapping";
+			sourceTree = "<group>";
+		};
+		18C31505F53BCD0CB0F85AB659963013 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E7E84538505F21AD441B87E2C82C53E5 /* CoreData.framework */,
+				FF85E5A74BF2C5F729F6419654402FBC /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		38B58FA526D63BE2459BAA33FA3FA60D /* EXTScope */ = {
+			isa = PBXGroup;
+			children = (
+				0884A9840881DFAED69E198E2438B5F8 /* EXTScope.h */,
+				FFD8419CE8D25F23343B8EE15AC64C67 /* EXTScope.m */,
+			);
+			name = EXTScope;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18C31505F53BCD0CB0F85AB659963013 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43BB3A18CEF399FB4B30DAE1E34784FB /* FastEasyMapping */ = {
+			isa = PBXGroup;
+			children = (
+				E1573FBA0F31C88EF27560A41DBB1A45 /* FastEasyMapping.h */,
+				E02401D7D32DC78B2184F9383A9A1E5E /* FEMAssignmentPolicy.h */,
+				C90D168D434366959AA1C30578D2DBA0 /* FEMAssignmentPolicy.m */,
+				7EE0EC108B071DE683E3CDA24D794997 /* FEMAttribute.h */,
+				283FF5FEE528950472F11D17521A8380 /* FEMAttribute.m */,
+				E2C05C916930207F069E57B4478B2F72 /* FEMDeserializer.h */,
+				54615AECAB60AE82FBF2C975F8807858 /* FEMDeserializer.m */,
+				75EED579F53DBE1C4471F591273E382D /* FEMExcludableCollection.h */,
+				4B63B9771DACEAA40330AE6C7E6F6D97 /* FEMExcludableCollection.m */,
+				A27E68EC7C49A400BFFF4788B9DB03D7 /* FEMManagedObjectCache.h */,
+				A04C2544D308A7D7B2E6D7E0C4898AF9 /* FEMManagedObjectCache.m */,
+				3382E778400032E8EEC6150CAD44B062 /* FEMManagedObjectDeserializer.h */,
+				8FA57776A2FB5A68635DDFB1A3C25938 /* FEMManagedObjectMapping.h */,
+				B0DDDAC4F15225D59E229135A15C940C /* FEMManagedObjectStore.h */,
+				6530C78EF6192EB84B251F038668DAB9 /* FEMManagedObjectStore.m */,
+				009B822F1031BDC7034D1C6142328867 /* FEMMapping.h */,
+				269D84410B29608AF54C1ED09FBBDB13 /* FEMMapping.m */,
+				C018C7CB247AFF86935B24E4BF36035F /* FEMMappingUtility.h */,
+				1CCFC3D3299D32CC4DAEE8E022D37172 /* FEMMappingUtility.m */,
+				7DAB6B7D4A5A1F8956FB2D0FA0087F1D /* FEMMergeableCollection.h */,
+				EBB6B637D575DFF8128FA997BACCF775 /* FEMMergeableCollection.m */,
+				5255A75F225DA86014C1AA00E05A7B05 /* FEMObjectDeserializer.h */,
+				5CE8DE5436CCFB39B2BBCF8518CFB98E /* FEMObjectMapping.h */,
+				E53A8A66ECB41E1E00DEBF7D5862E8CB /* FEMObjectStore.h */,
+				2C89AFBC355F552F76E0C89219785BFD /* FEMObjectStore.m */,
+				10381A94B632C4CB776B056541C36806 /* FEMProperty.h */,
+				9842E4867D24E664681ABBA4DD0B325D /* FEMRelationship.h */,
+				84AC3D51C59E268CDD050185F4A0D3AB /* FEMRelationship.m */,
+				E91378B7D3EE27658AF3AB02D1E9609A /* FEMRelationshipAssignmentContext.h */,
+				274215E41619FFE7BD6EFDFC44A5AC17 /* FEMRelationshipAssignmentContext.m */,
+				3530CF0C2CAFBE36587338E04620B8AA /* FEMRelationshipAssignmentContext+Internal.h */,
+				FA7BB7AB632EC348D9DB7D09297EAB00 /* FEMRepresentationUtility.h */,
+				364750CDA537AD1E3C699EECD6D4DD06 /* FEMRepresentationUtility.m */,
+				F7720F3D1CECE5F9E9A4178AAEA60ED2 /* FEMSerializer.h */,
+				5111D86DC5AB731731929F4543A7B905 /* FEMSerializer.m */,
+				F80EAB86D6E2A64D51CE102B6460D617 /* FEMTypeIntrospection.h */,
+				ADE5A6A013026E6A16B03F4F7F75C622 /* FEMTypeIntrospection.m */,
+				1BF096AF7516A72813FE5B21507FEA2C /* NSArray+FEMPropertyRepresentation.h */,
+				68CF509D90A66C204E9748CF77F04E87 /* NSArray+FEMPropertyRepresentation.m */,
+				FD9D754068F93EBF802B6D913A098FFF /* NSObject+FEMKVCExtension.h */,
+				250104D3B18E7D80620209194F7D2CBB /* NSObject+FEMKVCExtension.m */,
+				17C001962A0C64A5CA32350384D0C3DD /* Support Files */,
+			);
+			name = FastEasyMapping;
+			path = FastEasyMapping;
+			sourceTree = "<group>";
+		};
+		46EB996A90410C4AF9BF61E19987FCB3 /* EXTSelectorChecking */ = {
+			isa = PBXGroup;
+			children = (
+				989AA1CF168B56F8C3F98BEFD2FB8A27 /* EXTSelectorChecking.h */,
+				7D7706A3A1DFEE0CFEE28433070AD974 /* EXTSelectorChecking.m */,
 			);
 			name = EXTSelectorChecking;
 			sourceTree = "<group>";
 		};
-		1A002FABA9C7FFBE1A031A92CF19DFB6 /* NSInvocation+EXT */ = {
+		4F3507159B4C9964E1441B694A4C3374 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				97ECF79E1EB2CA523294511ADE51FF20 /* NSInvocation+EXT.h */,
-				6B3C435E4A75F5EFA2D04FB64D893700 /* NSInvocation+EXT.m */,
+				4052C096365C28EC8226F968FD281F5C /* FastEasyMapping.framework */,
+				A1C73FA1BCFEFDEC164EF9E63C47D853 /* libextobjc.framework */,
+				C026C41846733F5050B262C309E0B2FA /* Pods_Hotel.framework */,
 			);
-			name = "NSInvocation+EXT";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		30419C1CB8CF926A9BBD5576254E55B6 /* EXTADT */ = {
+		56173DF7E6DEF5D5DFB4DDDC1B53A256 /* EXTADT */ = {
 			isa = PBXGroup;
 			children = (
-				33E05E40F3A2E0E7EF435DCC4B215E3A /* EXTADT.h */,
-				E80DD89ED3C9C0ACBE58FA8B5CA038EB /* EXTADT.m */,
+				B607A9205215C7BA7AFD55C285CBA5B3 /* EXTADT.h */,
+				6BA8EBEC0794EA3CC20963E7022BF8BC /* EXTADT.m */,
 			);
 			name = EXTADT;
 			sourceTree = "<group>";
 		};
-		3DF59EDBD58539A6D017AF63E13F8213 /* Support Files */ = {
+		5B8DEC125D7238165E5F4E99A52126E3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F1BCA1E149FD2F089EBC22E98F05575D /* Info.plist */,
-				A377973207865200E8831798CF57F1F6 /* libextobjc.modulemap */,
-				1FB218AC2B84401F4D2C918F6564789E /* libextobjc.xcconfig */,
-				D5F5555C25A1AF3EB991446EAD9F44E4 /* libextobjc-dummy.m */,
-				5B5FFCAC89524A572A97A874BAF97B16 /* libextobjc-prefix.pch */,
-				B371334F82C4512327D08132A3238FAB /* libextobjc-umbrella.h */,
+				43BB3A18CEF399FB4B30DAE1E34784FB /* FastEasyMapping */,
+				ADB2A5F1102EC3840CD5EAC37BC6069A /* libextobjc */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5F02928FC963934B47F05DC07A5267B8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1629170B198C2C37C995A6583090CCB8 /* Info.plist */,
+				B7ED03FA34502BC176785E981D16AA35 /* libextobjc.modulemap */,
+				E0D7D822D30943EDB6BD795993BF2D28 /* libextobjc.xcconfig */,
+				6886D9EF72B279E5F334A67195C40348 /* libextobjc-dummy.m */,
+				1839A71E6A2446E0C49C509CA82208FE /* libextobjc-prefix.pch */,
+				E9C5264BA53548B9D2320F8A028196A6 /* libextobjc-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/libextobjc";
 			sourceTree = "<group>";
 		};
-		4BC6D6E262DB6CCCE0C5F203FDF38AC4 /* EXTSafeCategory */ = {
+		7BC581A3E69DB9CCA1A79DA88F92E62F /* RuntimeExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				BA671C9D0FAF8123C70907E474FCB7A5 /* EXTSafeCategory.h */,
-				F4A1275BA6FCA7795E6C251F1578D5E9 /* EXTSafeCategory.m */,
-			);
-			name = EXTSafeCategory;
-			sourceTree = "<group>";
-		};
-		597E90CF9706AB9285F82355C6DDCF52 /* RuntimeExtensions */ = {
-			isa = PBXGroup;
-			children = (
-				809670B6C58E473A5A8A3AE2C709054D /* EXTRuntimeExtensions.h */,
-				D64E023DD48B3E47E868AC3A4EAB3D11 /* EXTRuntimeExtensions.m */,
-				3FA486A1A706AD9668C157C7F1ABC9BB /* metamacros.h */,
+				D553E51894580B4B8481F18D3F57E1A6 /* EXTRuntimeExtensions.h */,
+				5D037F322B7FF1F508A3EAE156A152C7 /* EXTRuntimeExtensions.m */,
+				938C71481A994BD644A620FE9B515508 /* metamacros.h */,
 			);
 			name = RuntimeExtensions;
-			sourceTree = "<group>";
-		};
-		630D83947BD26D6B59255AFF2153BC8F /* libextobjc */ = {
-			isa = PBXGroup;
-			children = (
-				30419C1CB8CF926A9BBD5576254E55B6 /* EXTADT */,
-				782A9EEA3FC8105766088110884E1D97 /* EXTConcreteProtocol */,
-				A9DA37E01242C8A51FE0FF60D9B5AA25 /* EXTKeyPathCoding */,
-				90A197D6FE0484940F3E4C4CC0B6C89F /* EXTNil */,
-				4BC6D6E262DB6CCCE0C5F203FDF38AC4 /* EXTSafeCategory */,
-				083F4124C02DC302B18B892247B53AFC /* EXTScope */,
-				0C989B6096EA4125B4435E47C5FF3441 /* EXTSelectorChecking */,
-				771C26C4359B5462EAB6258359CF0194 /* EXTSynthesize */,
-				1A002FABA9C7FFBE1A031A92CF19DFB6 /* NSInvocation+EXT */,
-				BBC9073C4F9AA1A7E6AB5C5D51E5D5BC /* NSMethodSignature+EXT */,
-				597E90CF9706AB9285F82355C6DDCF52 /* RuntimeExtensions */,
-				3DF59EDBD58539A6D017AF63E13F8213 /* Support Files */,
-				8551B89EF2137925FFA03AC639872097 /* UmbrellaHeader */,
-			);
-			name = libextobjc;
-			path = libextobjc;
-			sourceTree = "<group>";
-		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		771C26C4359B5462EAB6258359CF0194 /* EXTSynthesize */ = {
-			isa = PBXGroup;
-			children = (
-				B58B99253A497CEF44956CD4917E611C /* EXTSynthesize.h */,
-			);
-			name = EXTSynthesize;
-			sourceTree = "<group>";
-		};
-		782A9EEA3FC8105766088110884E1D97 /* EXTConcreteProtocol */ = {
-			isa = PBXGroup;
-			children = (
-				5E62DBA2A78B3AC97D9540751AFFA2A0 /* EXTConcreteProtocol.h */,
-				020071E1E41879BFD7BFF970387E4B1D /* EXTConcreteProtocol.m */,
-			);
-			name = EXTConcreteProtocol;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				88CD6454BBE513E484A4A92205B4C5D0 /* Pods */,
-				E282796A8616C0478F64536D41906B76 /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				5B8DEC125D7238165E5F4E99A52126E3 /* Pods */,
+				4F3507159B4C9964E1441B694A4C3374 /* Products */,
 				0BD3184A6A82F55DC6AE50AF4986FF77 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -264,68 +427,122 @@
 			path = "Target Support Files/Pods-Hotel";
 			sourceTree = "<group>";
 		};
-		8551B89EF2137925FFA03AC639872097 /* UmbrellaHeader */ = {
+		A93CB363AC07580906394D9CCDE8583D /* EXTSafeCategory */ = {
 			isa = PBXGroup;
 			children = (
-				740B8E09E74E7DB553209CCCDF0BC39B /* extobjc.h */,
+				AA95F0B0BB3FDC031DE03C0A85D922D5 /* EXTSafeCategory.h */,
+				8F31E8EA0DA95C3F853AFF6EE5F66296 /* EXTSafeCategory.m */,
 			);
-			name = UmbrellaHeader;
+			name = EXTSafeCategory;
 			sourceTree = "<group>";
 		};
-		88CD6454BBE513E484A4A92205B4C5D0 /* Pods */ = {
+		A94E4275AAC24ADD0DBCA105A7A45391 /* EXTConcreteProtocol */ = {
 			isa = PBXGroup;
 			children = (
-				630D83947BD26D6B59255AFF2153BC8F /* libextobjc */,
+				BEB21B0580AC8BD62DC5A8D694E4B5B3 /* EXTConcreteProtocol.h */,
+				31C5179F57EF85189D56B70C23269441 /* EXTConcreteProtocol.m */,
 			);
-			name = Pods;
+			name = EXTConcreteProtocol;
 			sourceTree = "<group>";
 		};
-		90A197D6FE0484940F3E4C4CC0B6C89F /* EXTNil */ = {
+		ADB2A5F1102EC3840CD5EAC37BC6069A /* libextobjc */ = {
 			isa = PBXGroup;
 			children = (
-				35111E09963257A6700142DEA8B57CAE /* EXTNil.h */,
-				64CC8D248B875837974B776E78CB119E /* EXTNil.m */,
+				56173DF7E6DEF5D5DFB4DDDC1B53A256 /* EXTADT */,
+				A94E4275AAC24ADD0DBCA105A7A45391 /* EXTConcreteProtocol */,
+				B39AD9279E9A4220E36088AF5D0170A8 /* EXTKeyPathCoding */,
+				DA9CEF3EF4F21254A52256226276A482 /* EXTNil */,
+				A93CB363AC07580906394D9CCDE8583D /* EXTSafeCategory */,
+				38B58FA526D63BE2459BAA33FA3FA60D /* EXTScope */,
+				46EB996A90410C4AF9BF61E19987FCB3 /* EXTSelectorChecking */,
+				00EB68FC6FE05752E8D58E4B51E74F14 /* EXTSynthesize */,
+				E8F3664B4DFF43EA436B2E35C539C0C6 /* NSInvocation+EXT */,
+				043109B45AE7D56593118E44D3818AB4 /* NSMethodSignature+EXT */,
+				7BC581A3E69DB9CCA1A79DA88F92E62F /* RuntimeExtensions */,
+				5F02928FC963934B47F05DC07A5267B8 /* Support Files */,
+				F68DD6301E696BF86F1AC3EAD969D491 /* UmbrellaHeader */,
 			);
-			name = EXTNil;
+			name = libextobjc;
+			path = libextobjc;
 			sourceTree = "<group>";
 		};
-		A9DA37E01242C8A51FE0FF60D9B5AA25 /* EXTKeyPathCoding */ = {
+		B39AD9279E9A4220E36088AF5D0170A8 /* EXTKeyPathCoding */ = {
 			isa = PBXGroup;
 			children = (
-				BE394CF05DC71B84C7F44DC6B1B858CF /* EXTKeyPathCoding.h */,
+				8A1C3B0E061180EE92CAF7973BF37D75 /* EXTKeyPathCoding.h */,
 			);
 			name = EXTKeyPathCoding;
 			sourceTree = "<group>";
 		};
-		BBC9073C4F9AA1A7E6AB5C5D51E5D5BC /* NSMethodSignature+EXT */ = {
+		DA9CEF3EF4F21254A52256226276A482 /* EXTNil */ = {
 			isa = PBXGroup;
 			children = (
-				4697E20F47D35A642DFEFC8D75AD3038 /* NSMethodSignature+EXT.h */,
-				B4646C856B26F9C02F86549F20584A28 /* NSMethodSignature+EXT.m */,
+				D5F4ECAF7D2BD209AE262EEB4251BDE7 /* EXTNil.h */,
+				3AED641DA1CB79CA463449AE73A69C66 /* EXTNil.m */,
 			);
-			name = "NSMethodSignature+EXT";
+			name = EXTNil;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		E8F3664B4DFF43EA436B2E35C539C0C6 /* NSInvocation+EXT */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				8BBB2AAD42354AE6DA6EF998EBA661E8 /* NSInvocation+EXT.h */,
+				FE5AB053C25D26239E8D805D324B0682 /* NSInvocation+EXT.m */,
 			);
-			name = Frameworks;
+			name = "NSInvocation+EXT";
 			sourceTree = "<group>";
 		};
-		E282796A8616C0478F64536D41906B76 /* Products */ = {
+		F68DD6301E696BF86F1AC3EAD969D491 /* UmbrellaHeader */ = {
 			isa = PBXGroup;
 			children = (
-				26346E7124F56460BCE2CCD50CDA8CED /* libextobjc.framework */,
-				E900B1CA6761C86F01240BFB2FAE4C9D /* Pods_Hotel.framework */,
+				914DFC1993F84EBEC45BCD4C3EDEDF99 /* extobjc.h */,
 			);
-			name = Products;
+			name = UmbrellaHeader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		2C44B0993D5E427357F969AAEC62AE68 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F7F5220CE382E5B9C855CC87F041E9 /* FastEasyMapping-umbrella.h in Headers */,
+				8DFDDA122796618874CD39B2A481C74C /* FastEasyMapping.h in Headers */,
+				E0D0BEAA9E0357209B82FC3678921386 /* FEMAssignmentPolicy.h in Headers */,
+				D92E323D9A1B74299DA87C7C8891FFF3 /* FEMAttribute.h in Headers */,
+				7FF84D3C0329772FDFE89FDFFEFDDCBD /* FEMDeserializer.h in Headers */,
+				1C61A08B0A4AC01E7BC79103D41930E1 /* FEMExcludableCollection.h in Headers */,
+				A17246CF2F846B116ADA067F8C4442EA /* FEMManagedObjectCache.h in Headers */,
+				85C5D83AD76D41D401925EC519A990C4 /* FEMManagedObjectDeserializer.h in Headers */,
+				9CF6AE8B7F865AA4F7CE9A584E7B61AC /* FEMManagedObjectMapping.h in Headers */,
+				29E7AA454332D6C49BDCD6604B227E4B /* FEMManagedObjectStore.h in Headers */,
+				AA83F878318C300D045B8CC831283414 /* FEMMapping.h in Headers */,
+				3FF41F9F6027D4C3B7F8779A56BF34C0 /* FEMMappingUtility.h in Headers */,
+				18AD5782ACC41724AD3F91AB6B943192 /* FEMMergeableCollection.h in Headers */,
+				053C8D811AAB69AC80C0994418778268 /* FEMObjectDeserializer.h in Headers */,
+				DB38C931F29ED52FAD8BD81E05620CAE /* FEMObjectMapping.h in Headers */,
+				76BE44BB70463F2C594D4420A126283F /* FEMObjectStore.h in Headers */,
+				E8D88AC8667F7B1835EEC9D2C091EDB7 /* FEMProperty.h in Headers */,
+				A3EC97AD883E791094CDB79690078011 /* FEMRelationship.h in Headers */,
+				BBF48FCE534884AFF60E9F04F3596AF3 /* FEMRelationshipAssignmentContext+Internal.h in Headers */,
+				2AC29213AB028084EBFA10CCF360B991 /* FEMRelationshipAssignmentContext.h in Headers */,
+				696B9F817FA67E5AC0D350FA8AA9CE4F /* FEMRepresentationUtility.h in Headers */,
+				71FA5A9555DA0AD054F0B4D8BCD36F81 /* FEMSerializer.h in Headers */,
+				325687E17EAF712C2719B6076BB60F5B /* FEMTypeIntrospection.h in Headers */,
+				428038F844A51A53C724C484FBF522AC /* NSArray+FEMPropertyRepresentation.h in Headers */,
+				32B153A9B317C6785F3E9C74CB1DF291 /* NSObject+FEMKVCExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58E0BB735F53FE1D268F222948269859 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98126150B5BED536BE9DD76DB1D07880 /* Pods-Hotel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CC967D8AE3A38805CCEAEE03C58960F6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -347,35 +564,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8FDC590AC4EF9BEBB68CFC40075F77F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C23AFBA12270EB0882024D8F6630A80B /* Pods-Hotel-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0EBD5FACEF90F858189F9C432F9BE757 /* Pods-Hotel */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 57B3E51BF018D271270F4C3D29E11732 /* Build configuration list for PBXNativeTarget "Pods-Hotel" */;
-			buildPhases = (
-				818586A36CFA1332F9E033F2742EEF62 /* Sources */,
-				751342395C643E649FB8DDDC754D5FF3 /* Frameworks */,
-				D8FDC590AC4EF9BEBB68CFC40075F77F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				230B38E4C8059A488C8F2DB0FF49A68C /* PBXTargetDependency */,
-			);
-			name = "Pods-Hotel";
-			productName = "Pods-Hotel";
-			productReference = E900B1CA6761C86F01240BFB2FAE4C9D /* Pods_Hotel.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		4EE053CAA134CA7A6FA356E4059CAD1A /* libextobjc */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7251BAC6B1EC4B3F76705D59504D5F1 /* Build configuration list for PBXNativeTarget "libextobjc" */;
@@ -390,7 +581,43 @@
 			);
 			name = libextobjc;
 			productName = libextobjc;
-			productReference = 26346E7124F56460BCE2CCD50CDA8CED /* libextobjc.framework */;
+			productReference = A1C73FA1BCFEFDEC164EF9E63C47D853 /* libextobjc.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F76FA9CFE7FBAF75B8B2FA82D9C572C /* FastEasyMapping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47B787C1D91E42475B0DD4EEC76DFCBB /* Build configuration list for PBXNativeTarget "FastEasyMapping" */;
+			buildPhases = (
+				B2DFEAF4148ED809E4BA6DACE074C4EE /* Sources */,
+				966A6406E3DBC7D43122995E63F89567 /* Frameworks */,
+				2C44B0993D5E427357F969AAEC62AE68 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastEasyMapping;
+			productName = FastEasyMapping;
+			productReference = 4052C096365C28EC8226F968FD281F5C /* FastEasyMapping.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E96C545A17CA0D79D3BFC5FB401D95BD /* Pods-Hotel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 453A68AB33F7C5ABB1FE3C880316766C /* Build configuration list for PBXNativeTarget "Pods-Hotel" */;
+			buildPhases = (
+				5A411A2D14F3025FFE1D3C42FA7B0B0A /* Sources */,
+				04A839D3E898A7D0C74C37229977FE23 /* Frameworks */,
+				58E0BB735F53FE1D268F222948269859 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9D9BCC11FD8BF4EC112310287ABE00D /* PBXTargetDependency */,
+				6E5AECFF6627D7D908C4EAE07A5AE36F /* PBXTargetDependency */,
+			);
+			name = "Pods-Hotel";
+			productName = "Pods-Hotel";
+			productReference = C026C41846733F5050B262C309E0B2FA /* Pods_Hotel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -410,12 +637,13 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = E282796A8616C0478F64536D41906B76 /* Products */;
+			productRefGroup = 4F3507159B4C9964E1441B694A4C3374 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				7F76FA9CFE7FBAF75B8B2FA82D9C572C /* FastEasyMapping */,
 				4EE053CAA134CA7A6FA356E4059CAD1A /* libextobjc */,
-				0EBD5FACEF90F858189F9C432F9BE757 /* Pods-Hotel */,
+				E96C545A17CA0D79D3BFC5FB401D95BD /* Pods-Hotel */,
 			);
 		};
 /* End PBXProject section */
@@ -438,29 +666,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		818586A36CFA1332F9E033F2742EEF62 /* Sources */ = {
+		5A411A2D14F3025FFE1D3C42FA7B0B0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABB38A60F3FE1FB7DDFA820360C21012 /* Pods-Hotel-dummy.m in Sources */,
+				11D0273041D2B8B0E68CC96DD069237D /* Pods-Hotel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2DFEAF4148ED809E4BA6DACE074C4EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5966F7E4FFEC0053F0ED6B5618F2252 /* FastEasyMapping-dummy.m in Sources */,
+				DC43A11936BBE51AB342F537829DA8E2 /* FEMAssignmentPolicy.m in Sources */,
+				E8BEDD06D6E8C2AB477A311CC66DD5DC /* FEMAttribute.m in Sources */,
+				306A5121B53879195052301016F66917 /* FEMDeserializer.m in Sources */,
+				D991381A3A26C9DB0FE3C4435879D24A /* FEMExcludableCollection.m in Sources */,
+				7C0716D582C189602AC6B0093770FC0C /* FEMManagedObjectCache.m in Sources */,
+				3987E90AEB2C806B1E95D924FA67C198 /* FEMManagedObjectStore.m in Sources */,
+				2D03941CA19774B249E55DBB873B56B6 /* FEMMapping.m in Sources */,
+				12384ED237026C27CC182EB9FC0781FE /* FEMMappingUtility.m in Sources */,
+				A66D705CE70053CDF0355367627F52CC /* FEMMergeableCollection.m in Sources */,
+				E99C37AAFB2F9AE8B2EECEF5A912C108 /* FEMObjectStore.m in Sources */,
+				03369B4CA8DE8BB3AB3346F63C3D21FD /* FEMRelationship.m in Sources */,
+				91FAAC5676BA309C2FBD16805728CA67 /* FEMRelationshipAssignmentContext.m in Sources */,
+				842D0B198790F11CDCA77795E7EBA455 /* FEMRepresentationUtility.m in Sources */,
+				D3C86E9F04505693FC06B42CCFA47764 /* FEMSerializer.m in Sources */,
+				EB468F8241B53F62E297CEDCB8462ADF /* FEMTypeIntrospection.m in Sources */,
+				E63EA4DB7FF67B4A3670C65C5463C0DB /* NSArray+FEMPropertyRepresentation.m in Sources */,
+				DD126ADF9FCBA8C3E022357500F505BE /* NSObject+FEMKVCExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		230B38E4C8059A488C8F2DB0FF49A68C /* PBXTargetDependency */ = {
+		6E5AECFF6627D7D908C4EAE07A5AE36F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = libextobjc;
 			target = 4EE053CAA134CA7A6FA356E4059CAD1A /* libextobjc */;
-			targetProxy = 54AD0CA99F30BA2BF7528C43F614F1F1 /* PBXContainerItemProxy */;
+			targetProxy = 5145C0429B3F442F2CD797172D3E1B13 /* PBXContainerItemProxy */;
+		};
+		E9D9BCC11FD8BF4EC112310287ABE00D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FastEasyMapping;
+			target = 7F76FA9CFE7FBAF75B8B2FA82D9C572C /* FastEasyMapping */;
+			targetProxy = 53DA4AB70F91918A127D7C133758250D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2707865DF7EE11A53A884EA96B5BE8E3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FB218AC2B84401F4D2C918F6564789E /* libextobjc.xcconfig */;
+			baseConfigurationReference = E0D7D822D30943EDB6BD795993BF2D28 /* libextobjc.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -481,6 +740,72 @@
 				MODULEMAP_FILE = "Target Support Files/libextobjc/libextobjc.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = libextobjc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		31DAD294B1EFEA7C2D1F683BC547EDEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 487BC1D9FB14BC258C36DB1C92FED5AE /* Pods-Hotel.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Hotel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hotel/Pods-Hotel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Hotel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		38BC79078DBB555346DCD8865D90B9BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15AF139FB9CE5EC26A8740EDBE2648D9 /* FastEasyMapping.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FastEasyMapping/FastEasyMapping-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FastEasyMapping/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FastEasyMapping/FastEasyMapping.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FastEasyMapping;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -531,9 +856,9 @@
 			};
 			name = Release;
 		};
-		A47389E1B7621AF5BF6243288B6B97B3 /* Debug */ = {
+		AB699ABE55E0EC8F259D649EA58619ED /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 487BC1D9FB14BC258C36DB1C92FED5AE /* Pods-Hotel.debug.xcconfig */;
+			baseConfigurationReference = 15AF139FB9CE5EC26A8740EDBE2648D9 /* FastEasyMapping.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -546,18 +871,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Hotel/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FastEasyMapping/FastEasyMapping-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FastEasyMapping/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Hotel/Pods-Hotel.modulemap";
+				MODULEMAP_FILE = "Target Support Files/FastEasyMapping/FastEasyMapping.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Hotel;
+				PRODUCT_NAME = FastEasyMapping;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -566,7 +887,7 @@
 			};
 			name = Debug;
 		};
-		D0B9067FA60FF38D804A841002F690C3 /* Release */ = {
+		B56F19E4019BF04F547B6AA6ED98D5C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E05A05138D18BDCDAAF42A34A9E7903F /* Pods-Hotel.release.xcconfig */;
 			buildSettings = {
@@ -603,7 +924,7 @@
 		};
 		EB97ACF4A94870A3F620E4C9EA9F8AB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FB218AC2B84401F4D2C918F6564789E /* libextobjc.xcconfig */;
+			baseConfigurationReference = E0D7D822D30943EDB6BD795993BF2D28 /* libextobjc.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -689,11 +1010,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		57B3E51BF018D271270F4C3D29E11732 /* Build configuration list for PBXNativeTarget "Pods-Hotel" */ = {
+		453A68AB33F7C5ABB1FE3C880316766C /* Build configuration list for PBXNativeTarget "Pods-Hotel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A47389E1B7621AF5BF6243288B6B97B3 /* Debug */,
-				D0B9067FA60FF38D804A841002F690C3 /* Release */,
+				31DAD294B1EFEA7C2D1F683BC547EDEB /* Debug */,
+				B56F19E4019BF04F547B6AA6ED98D5C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47B787C1D91E42475B0DD4EEC76DFCBB /* Build configuration list for PBXNativeTarget "FastEasyMapping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB699ABE55E0EC8F259D649EA58619ED /* Debug */,
+				38BC79078DBB555346DCD8865D90B9BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
