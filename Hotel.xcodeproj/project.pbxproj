@@ -155,6 +155,7 @@
 		1315C9241DE1A48800F9CADF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HTL;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = aoli;
 				TargetAttributes = {
