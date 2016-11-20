@@ -1,0 +1,10 @@
+#ifndef checkmate_Prefix_h
+#define checkmate_Prefix_h
+
+#import <libextobjc/EXTScope.h>
+#import <libextobjc/EXTKeyPathCoding.h>
+
+@import UIKit;
+@import Foundation;
+
+#endif /* checkmate_Prefix_h */
