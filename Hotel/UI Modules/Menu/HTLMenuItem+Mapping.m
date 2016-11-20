@@ -14,7 +14,7 @@
     [mapping addAttributesFromDictionary:@{
             @"identifier": @"uid",
             @"order": @"order",
-            @"title": @"title",
+            @"title": @"menuTitle",
             @"relatedScreenTitle": @"related_screen_title",
             @"actionType": @"action_type"
     }];

@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "HTLServiceLocator.h"
+#import "../Common/HTLDefaultNavigationController/HTLDefaultNavigationController.h"
+#import "HTLMenuTableViewController.h"
 
 @interface AppDelegate ()
 
@@ -23,7 +25,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
 
-    self.window.rootViewController = [[CMTDefaultNavigationController alloc] initWithRootViewController:[CMTSegmentedControllersFactory mainScreenSegmentedController]];
+    self.window.rootViewController = [[HTLDefaultNavigationController alloc] initWithRootViewController:[[HTLMenuTableViewController alloc] initWithNibName:nil bundle:nil]];
 
     [self.window makeKeyAndVisible];
 

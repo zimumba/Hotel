@@ -6,7 +6,7 @@
 @import Foundation;
 
 typedef NS_ENUM(NSInteger, HTLMenuItemActionType) {
-    HTLMenuItemActionTypeShowFood,
+    HTLMenuItemActionTypeShowFood = 1,
     HTLMenuItemActionTypeShowSpa,
     HTLMenuItemActionTypeShowGym
 };

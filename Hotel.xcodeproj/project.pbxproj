@@ -10,11 +10,25 @@
 		1315C9311DE1A48800F9CADF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1315C9301DE1A48800F9CADF /* main.m */; };
 		1315C93F1DE1A48800F9CADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1315C93D1DE1A48800F9CADF /* LaunchScreen.storyboard */; };
 		1315C94A1DE1A48800F9CADF /* HotelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1315C9491DE1A48800F9CADF /* HotelTests.m */; };
+		1315C9551DE1BD3700F9CADF /* HTLMenuItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1315C9541DE1BD3700F9CADF /* HTLMenuItemCell.xib */; };
+		1315C9571DE1BD8300F9CADF /* HTLMenuTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1315C9561DE1BD8300F9CADF /* HTLMenuTableViewController.xib */; };
 		1724206913708C69A9BA152F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1724269692669C0F885ED194 /* Assets.xcassets */; };
 		172420F84E038F95E5E194CA /* HTLMenuItem+Mapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 172420F60BEE010D2E0C51A8 /* HTLMenuItem+Mapping.m */; };
 		17242205A95BFA933B0202A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17242F54FF16FEEC53E4C83D /* AppDelegate.m */; };
+		17242323B737AEEF303BD587 /* HTLMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 172422E684B12763701481FC /* HTLMenuTableViewController.m */; };
+		172423A107E31A8682AE5D38 /* HTLMenuDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 17242B1C3B62E9F41772380A /* HTLMenuDataProvider.m */; };
+		17242427B3B8BA09EE8FC316 /* HTLMenuItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1724276EF09C3B1260B3B7BB /* HTLMenuItemViewModel.m */; };
+		172425E172272557E3F4002C /* HTLMenuItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17242F58CCDAE107477C8242 /* HTLMenuItemCell.m */; };
 		172427027AE41B8A36AF7010 /* HTLServiceLocator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1724236986AF4D6884E4C1D7 /* HTLServiceLocator.m */; };
+		17242753813340F73904F596 /* HTLDefaultNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 172429E2AB6888649070CBAC /* HTLDefaultNavigationController.m */; };
+		1724286959D32C1E63FD5863 /* HTLConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 17242F3C6473CEBDDBB961CB /* HTLConstants.m */; };
+		1724296B39B5D1DB3132BF8C /* Menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 172427C37A92D7E3A4550650 /* Menu.plist */; };
+		17242B550D8F9AA740B334B5 /* NSObject+HTLClassName.m in Sources */ = {isa = PBXBuildFile; fileRef = 172424701E8815AB9E4E011B /* NSObject+HTLClassName.m */; };
+		17242CAE7C8A4841FA02E5FE /* HTLCellParamsContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 17242915D60D10F3A4E70285 /* HTLCellParamsContainer.m */; };
+		17242CFFEC9115F460FB8DB5 /* HTLAlertsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 17242516BC6134D649823298 /* HTLAlertsFactory.m */; };
 		17242D013A237351BFFE6037 /* HTLMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 17242366136A5064627CF190 /* HTLMenuItem.m */; };
+		17242D26F9E7B75374F4018E /* HTLSimpleDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1724230496B96A301150AD97 /* HTLSimpleDataSource.m */; };
+		17242F6202B50F95F701E742 /* HTLBaseParamsContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 172422748A0D74ACBEA942D2 /* HTLBaseParamsContainer.m */; };
 		5EFE9F3151FAAE5ECE015539 /* Pods_Hotel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0245A7F49FE245452E007A5C /* Pods_Hotel.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,17 +50,44 @@
 		1315C9451DE1A48800F9CADF /* HotelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1315C9491DE1A48800F9CADF /* HotelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotelTests.m; sourceTree = "<group>"; };
 		1315C94B1DE1A48800F9CADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1315C9541DE1BD3700F9CADF /* HTLMenuItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HTLMenuItemCell.xib; sourceTree = "<group>"; };
+		1315C9561DE1BD8300F9CADF /* HTLMenuTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HTLMenuTableViewController.xib; sourceTree = "<group>"; };
 		172420310FC22ECC8E0D7373 /* HTLGlobalUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTLGlobalUtilities.h; sourceTree = "<group>"; };
 		172420F60BEE010D2E0C51A8 /* HTLMenuItem+Mapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HTLMenuItem+Mapping.m"; sourceTree = "<group>"; };
+		172422748A0D74ACBEA942D2 /* HTLBaseParamsContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTLBaseParamsContainer.m; sourceTree = "<group>"; };
+		1724227C5AB5CF32C4A3E8C3 /* HTLMenuDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTLMenuDataProvider.h; sourceTree = "<group>"; };
+		172422E684B12763701481FC /* HTLMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTLMenuTableViewController.m; sourceTree = "<group>"; };
+		1724230496B96A301150AD97 /* HTLSimpleDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTLSimpleDataSource.m; sourceTree = "<group>"; };
 		1724230E6F6845BBD6E5F64A /* HTLServiceLocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTLServiceLocator.h; sourceTree = "<group>"; };
 		17242366136A5064627CF190 /* HTLMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTLMenuItem.m; sourceTree = "<group>"; };
 		1724236986AF4D6884E4C1D7 /* HTLServiceLocator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTLServiceLocator.m; sourceTree = "<group>"; };
 		17242431EF67C0269CD1C278 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		172424701E8815AB9E4E011B /* NSObject+HTLClassName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HTLClassName.m"; sourceTree = "<group>"; };
+		172424A24F5CA2DBCC9BE0C5 /* NSObject+HTLClassName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HTLClassName.h"; sourceTree = "<group>"; };
+		172424C39889CC430C3BF824 /* HTLAlertsFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTLAlertsFactory.h; sourceTree = "<group>"; };
+		17242516BC6134D649823298 /* HTLAlertsFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTLAlertsFactory.m; sourceTree = "<group>"; };
+		1724251D487F2640DBE2398C /* HTLDefaultNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTLDefaultNavigationController.h; sourceTree = "<group>"; };
 		1724269692669C0F885ED194 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1724272253B205518BDFD818 /* HTLCellParamsContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTLCellParamsContainer.h; sourceTree = "<group>"; };
+		1724276EF09C3B1260B3B7BB /* HTLMenuItemViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTLMenuItemViewModel.m; sourceTree = "<group>"; };
+		172427BF5D95ADE9A97202BF /* HTLDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTLDataProvider.h; sourceTree = "<group>"; };
+		172427C37A92D7E3A4550650 /* Menu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Menu.plist; sourceTree = "<group>"; };
+		1724283180C9C91D3A43AFA6 /* HTLMenuItemViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTLMenuItemViewModel.h; sourceTree = "<group>"; };
+		172428FB1632321D6453AAE3 /* HTLConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTLConstants.h; sourceTree = "<group>"; };
+		17242915D60D10F3A4E70285 /* HTLCellParamsContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTLCellParamsContainer.m; sourceTree = "<group>"; };
+		172429CA94BB595045C1E45B /* HTLMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTLMenuTableViewController.h; sourceTree = "<group>"; };
+		172429E2AB6888649070CBAC /* HTLDefaultNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTLDefaultNavigationController.m; sourceTree = "<group>"; };
+		17242AF2BC95F6EEAA0946BD /* HTLMenuItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTLMenuItemCell.h; sourceTree = "<group>"; };
+		17242B1C3B62E9F41772380A /* HTLMenuDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTLMenuDataProvider.m; sourceTree = "<group>"; };
+		17242BB291CD0D4A63E5075D /* HTLBaseParamsContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTLBaseParamsContainer.h; sourceTree = "<group>"; };
 		17242BD466B69CC598078C46 /* HTLNULLUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTLNULLUtilities.h; sourceTree = "<group>"; };
+		17242C5196E2E3B7979D82F8 /* HTLCellParamsContainerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTLCellParamsContainerDelegate.h; sourceTree = "<group>"; };
 		17242E177C18F6F4856D719D /* HTLMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTLMenuItem.h; sourceTree = "<group>"; };
 		17242E1958F078B9616F643A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		17242F3C07BA45DFABA62DD4 /* HTLSimpleDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTLSimpleDataSource.h; sourceTree = "<group>"; };
+		17242F3C6473CEBDDBB961CB /* HTLConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTLConstants.m; sourceTree = "<group>"; };
 		17242F54FF16FEEC53E4C83D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17242F58CCDAE107477C8242 /* HTLMenuItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTLMenuItemCell.m; sourceTree = "<group>"; };
 		17242F75254F7BCD7DB8AC03 /* HTLMenuItem+Mapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HTLMenuItem+Mapping.h"; sourceTree = "<group>"; };
 		17242FA24CE4B59F476976B7 /* Hotel-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Hotel-Prefix.pch"; sourceTree = "<group>"; };
 		86CD774FDC751CAEA2F260D6 /* Pods-Hotel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hotel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hotel/Pods-Hotel.debug.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +163,23 @@
 			path = HotelTests;
 			sourceTree = "<group>";
 		};
+		1724200B4BBC485039C4567A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				172427C37A92D7E3A4550650 /* Menu.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1724205CACB3F39E88033931 /* HTLDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				17242F3C07BA45DFABA62DD4 /* HTLSimpleDataSource.h */,
+				1724230496B96A301150AD97 /* HTLSimpleDataSource.m */,
+			);
+			path = HTLDataSource;
+			sourceTree = "<group>";
+		};
 		1724208FB530EAE7711A5799 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +191,34 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
+		172420EDE2C8F658DB246DA0 /* HTLDefaultNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				1724251D487F2640DBE2398C /* HTLDefaultNavigationController.h */,
+				172429E2AB6888649070CBAC /* HTLDefaultNavigationController.m */,
+			);
+			path = HTLDefaultNavigationController;
+			sourceTree = "<group>";
+		};
+		172421937695A3A1B86F77CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				17242F58CCDAE107477C8242 /* HTLMenuItemCell.m */,
+				17242AF2BC95F6EEAA0946BD /* HTLMenuItemCell.h */,
+				1315C9541DE1BD3700F9CADF /* HTLMenuItemCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		172421EC0CF96D302B7E5B76 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				17242B1C3B62E9F41772380A /* HTLMenuDataProvider.m */,
+				1724227C5AB5CF32C4A3E8C3 /* HTLMenuDataProvider.h */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		17242291E83BD60335069885 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +227,15 @@
 				17242FA24CE4B59F476976B7 /* Hotel-Prefix.pch */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		172422DBDFA3FF326CBA53D1 /* ParamsContainer */ = {
+			isa = PBXGroup;
+			children = (
+				1724251F58739BC843FDCE0E /* Models */,
+				172427E9A6F42DEFE6EEA150 /* Protocols */,
+			);
+			path = ParamsContainer;
 			sourceTree = "<group>";
 		};
 		172422E48D5909DB3C039562 /* AppDelegate */ = {
@@ -156,6 +251,11 @@
 			isa = PBXGroup;
 			children = (
 				1724208FB530EAE7711A5799 /* Models */,
+				172421EC0CF96D302B7E5B76 /* Controllers */,
+				172421937695A3A1B86F77CA /* Views */,
+				17242CA4D9D77A6DC4FED6C5 /* ViewControllers */,
+				17242B65F93B0B0BB5A73130 /* ViewModels */,
+				1724200B4BBC485039C4567A /* Resources */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -163,6 +263,8 @@
 		1724234BD0B658401AEB4F26 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				17242F3C6473CEBDDBB961CB /* HTLConstants.m */,
+				172428FB1632321D6453AAE3 /* HTLConstants.h */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -173,6 +275,17 @@
 				1724230C59DBAE1750280DE4 /* Menu */,
 			);
 			path = "UI Modules";
+			sourceTree = "<group>";
+		};
+		1724251F58739BC843FDCE0E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				17242BB291CD0D4A63E5075D /* HTLBaseParamsContainer.h */,
+				172422748A0D74ACBEA942D2 /* HTLBaseParamsContainer.m */,
+				1724272253B205518BDFD818 /* HTLCellParamsContainer.h */,
+				17242915D60D10F3A4E70285 /* HTLCellParamsContainer.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		172426924F0F14F77637BFE9 /* Locators */ = {
@@ -198,8 +311,67 @@
 				172426924F0F14F77637BFE9 /* Locators */,
 				17242FB38B2842F9584EFA32 /* Utilities */,
 				1724234BD0B658401AEB4F26 /* Constants */,
+				17242D827E036162A482C8DD /* Protocols */,
+				1724205CACB3F39E88033931 /* HTLDataSource */,
+				172422DBDFA3FF326CBA53D1 /* ParamsContainer */,
+				17242DA8778890DA6767373E /* Factories */,
+				172429F1C762998337021416 /* Categories */,
+				172420EDE2C8F658DB246DA0 /* HTLDefaultNavigationController */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		172427E9A6F42DEFE6EEA150 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				17242C5196E2E3B7979D82F8 /* HTLCellParamsContainerDelegate.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		172429F1C762998337021416 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				172424701E8815AB9E4E011B /* NSObject+HTLClassName.m */,
+				172424A24F5CA2DBCC9BE0C5 /* NSObject+HTLClassName.h */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		17242B65F93B0B0BB5A73130 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1724276EF09C3B1260B3B7BB /* HTLMenuItemViewModel.m */,
+				1724283180C9C91D3A43AFA6 /* HTLMenuItemViewModel.h */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		17242CA4D9D77A6DC4FED6C5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				172422E684B12763701481FC /* HTLMenuTableViewController.m */,
+				172429CA94BB595045C1E45B /* HTLMenuTableViewController.h */,
+				1315C9561DE1BD8300F9CADF /* HTLMenuTableViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		17242D827E036162A482C8DD /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				172427BF5D95ADE9A97202BF /* HTLDataProvider.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		17242DA8778890DA6767373E /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				17242516BC6134D649823298 /* HTLAlertsFactory.m */,
+				172424C39889CC430C3BF824 /* HTLAlertsFactory.h */,
+			);
+			path = Factories;
 			sourceTree = "<group>";
 		};
 		17242FB38B2842F9584EFA32 /* Utilities */ = {
@@ -314,8 +486,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1315C9571DE1BD8300F9CADF /* HTLMenuTableViewController.xib in Resources */,
+				1315C9551DE1BD3700F9CADF /* HTLMenuItemCell.xib in Resources */,
 				1315C93F1DE1A48800F9CADF /* LaunchScreen.storyboard in Resources */,
 				1724206913708C69A9BA152F /* Assets.xcassets in Resources */,
+				1724296B39B5D1DB3132BF8C /* Menu.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +561,17 @@
 				17242205A95BFA933B0202A4 /* AppDelegate.m in Sources */,
 				17242D013A237351BFFE6037 /* HTLMenuItem.m in Sources */,
 				172420F84E038F95E5E194CA /* HTLMenuItem+Mapping.m in Sources */,
+				1724286959D32C1E63FD5863 /* HTLConstants.m in Sources */,
+				17242D26F9E7B75374F4018E /* HTLSimpleDataSource.m in Sources */,
+				172423A107E31A8682AE5D38 /* HTLMenuDataProvider.m in Sources */,
+				17242F6202B50F95F701E742 /* HTLBaseParamsContainer.m in Sources */,
+				17242CAE7C8A4841FA02E5FE /* HTLCellParamsContainer.m in Sources */,
+				172425E172272557E3F4002C /* HTLMenuItemCell.m in Sources */,
+				17242427B3B8BA09EE8FC316 /* HTLMenuItemViewModel.m in Sources */,
+				17242323B737AEEF303BD587 /* HTLMenuTableViewController.m in Sources */,
+				17242CFFEC9115F460FB8DB5 /* HTLAlertsFactory.m in Sources */,
+				17242B550D8F9AA740B334B5 /* NSObject+HTLClassName.m in Sources */,
+				17242753813340F73904F596 /* HTLDefaultNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +700,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "Hotel/Resources/Hotel-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Hotel/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aoli.Hotel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -527,6 +714,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "Hotel/Resources/Hotel-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Hotel/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aoli.Hotel;
 				PRODUCT_NAME = "$(TARGET_NAME)";

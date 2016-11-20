@@ -10,7 +10,7 @@ This is a fork of [EasyMapping](https://github.com/EasyMapping/EasyMapping), a f
 It turns out, that almost all popular libraries for JSON mapping are SLOW. The main reason for that is multiple trips to database during the lookup of existing objects. We [decided](https://yalantis.com/blog/from-json-to-core-data-fast-and-effectively/) to take an already existing [flexible solution](https://github.com/EasyMapping/EasyMapping) (i.e. EasyMapping) and improve its overall performance.
 
 <p align="center" >
-  <img src="https://raw.githubusercontent.com/Yalantis/FastEasyMapping/efabb88b0831c7ece88e728b9665edc4d3af5b1f/Assets/performance.png" alt="FastEasyMapping" title="FastEasyMapping">
+  <img src="https://raw.githubusercontent.com/Yalantis/FastEasyMapping/efabb88b0831c7ece88e728b9665edc4d3af5b1f/Assets/performance.png" alt="FastEasyMapping" menuTitle="FastEasyMapping">
 </p>
 
 # Installation
@@ -404,7 +404,7 @@ Sometimes object representation contains a relationship described by a PK of the
 {
 	"result": {
 		"id": 314
-		"title": "https://github.com"
+		"menuTitle": "https://github.com"
 		"category": 4
 	}
 }
@@ -416,7 +416,7 @@ First of all let’s declare our classes:
 @interface Website: NSManagedObject
 
 @property (nonatomic, strong) NSNumber *identifier;
-@property (nonatomic, strong) NSString *title;
+@property (nonatomic, strong) NSString *menuTitle;
 @property (nonatomic, strong) Category *category;
 
 @end
@@ -424,7 +424,7 @@ First of all let’s declare our classes:
 @interface Category: NSManagedObject
 
 @property (nonatomic, strong) NSNumber *identifier;
-@property (nonatomic, strong) NSString *title;
+@property (nonatomic, strong) NSString *menuTitle;
 @property (nonatomic, strong) NSSet *websites
 
 @end
@@ -438,7 +438,7 @@ Now it is time to define mapping for `Website`:
 + (FEMMapping *)defaultMapping {
 	FEMMapping *mapping = [[FEMMapping alloc] initWithEntityName:@"Website"];
 	mapping.primaryKey = @"identifier";
-	[mapping addAttributesFromDictionary:@{@"identifier": @"id", @"title": @"title"}];
+	[mapping addAttributesFromDictionary:@{@"identifier": @"id", @"menuTitle": @"menuTitle"}];
 
 	FEMMapping *categoryMapping = [[FEMMapping alloc] initWithEntityName:@"Category"];
 	categoryMapping.primaryKey = @"identifier";
@@ -464,7 +464,7 @@ In the example above there is an issue: what if our database doesn't contain `Ca
 + (FEMMapping *)defaultMapping {
     FEMMapping *mapping = [[FEMMapping alloc] initWithEntityName:@"Website"];
     mapping.primaryKey = @"identifier";
-    [mapping addAttributesFromDictionary:@{@"identifier": @"id", @"title": @"title"}];
+    [mapping addAttributesFromDictionary:@{@"identifier": @"id", @"menuTitle": @"menuTitle"}];
 
     FEMMapping *categoryMapping = [[FEMMapping alloc] initWithEntityName:@"Category"];
     categoryMapping.primaryKey = @"identifier";

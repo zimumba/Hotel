@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>uid</key>
+		<string>1</string>
+		<key>order</key>
+		<integer>0</integer>
+		<key>menuTitle</key>
+		<string>Food</string>
+		<key>related_screen_title</key>
+		<string>Select Food</string>
+		<key>action_type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>uid</key>
+		<string>2</string>
+		<key>order</key>
+		<integer>1</integer>
+		<key>menuTitle</key>
+		<string>Spa</string>
+		<key>related_screen_title</key>
+		<string>Select Spa</string>
+		<key>action_type</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>uid</key>
+		<string>3</string>
+		<key>order</key>
+		<integer>2</integer>
+		<key>menuTitle</key>
+		<string>Gym</string>
+		<key>related_screen_title</key>
+		<string>Select Gym</string>
+		<key>action_type</key>
+		<integer>3</integer>
+	</dict>
+</array>
+</plist>
