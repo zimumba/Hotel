@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -27,11 +26,21 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tjT-4D-rop">
+                        <rect key="frame" x="8" y="42.5" width="359" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="SfU-fm-Ovs"/>
+                        </constraints>
+                    </view>
                 </subviews>
                 <constraints>
                     <constraint firstItem="ciJ-9y-UF9" firstAttribute="centerY" secondItem="wMT-b0-Pxe" secondAttribute="centerY" id="6zx-Ow-s98"/>
+                    <constraint firstAttribute="trailing" secondItem="tjT-4D-rop" secondAttribute="trailing" constant="8" id="jpc-yN-ijM"/>
                     <constraint firstItem="ciJ-9y-UF9" firstAttribute="leading" secondItem="wMT-b0-Pxe" secondAttribute="leading" constant="8" id="m7p-KT-wlx"/>
+                    <constraint firstAttribute="bottom" secondItem="tjT-4D-rop" secondAttribute="bottom" id="pc7-xe-KRH"/>
                     <constraint firstAttribute="trailing" secondItem="ciJ-9y-UF9" secondAttribute="trailing" constant="8" id="r21-MG-P9D"/>
+                    <constraint firstItem="tjT-4D-rop" firstAttribute="leading" secondItem="wMT-b0-Pxe" secondAttribute="leading" constant="8" id="tnv-dJ-Ya6"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>

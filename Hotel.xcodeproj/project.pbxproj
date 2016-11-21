@@ -16,6 +16,7 @@
 		1315C95B1DE1D3E100F9CADF /* FoodList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1315C95A1DE1D3E100F9CADF /* FoodList.plist */; };
 		1315C9621DE1D53700F9CADF /* GymList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1315C9601DE1D53700F9CADF /* GymList.plist */; };
 		1315C9631DE1D53700F9CADF /* SpaList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1315C9611DE1D53700F9CADF /* SpaList.plist */; };
+		1315C9821DE3511C00F9CADF /* HTLOrderItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1315C9811DE3511C00F9CADF /* HTLOrderItemCell.xib */; };
 		17242019F63517D039545E08 /* HTLOrdersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17242E05E70EDE9A3F2D729D /* HTLOrdersTableViewController.m */; };
 		1724206913708C69A9BA152F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1724269692669C0F885ED194 /* Assets.xcassets */; };
 		172420F84E038F95E5E194CA /* HTLMenuItem+Mapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 172420F60BEE010D2E0C51A8 /* HTLMenuItem+Mapping.m */; };
@@ -25,6 +26,7 @@
 		172423A107E31A8682AE5D38 /* HTLMenuDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 17242B1C3B62E9F41772380A /* HTLMenuDataProvider.m */; };
 		17242427B3B8BA09EE8FC316 /* HTLMenuItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1724276EF09C3B1260B3B7BB /* HTLMenuItemViewModel.m */; };
 		17242515DC10FF4CF7B4D69A /* HTLOrderViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 172425CF3DED96F1C1AE25DB /* HTLOrderViewModel.m */; };
+		172425A0396ADE97436DAD76 /* HTLOrderItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17242D6E9722D94B17C2AFCA /* HTLOrderItemCell.m */; };
 		172425E172272557E3F4002C /* HTLMenuItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17242F58CCDAE107477C8242 /* HTLMenuItemCell.m */; };
 		172427027AE41B8A36AF7010 /* HTLServiceLocator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1724236986AF4D6884E4C1D7 /* HTLServiceLocator.m */; };
 		17242753813340F73904F596 /* HTLDefaultNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 172429E2AB6888649070CBAC /* HTLDefaultNavigationController.m */; };
@@ -66,6 +68,7 @@
 		1315C95A1DE1D3E100F9CADF /* FoodList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = FoodList.plist; sourceTree = "<group>"; };
 		1315C9601DE1D53700F9CADF /* GymList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = GymList.plist; sourceTree = "<group>"; };
 		1315C9611DE1D53700F9CADF /* SpaList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = SpaList.plist; sourceTree = "<group>"; };
+		1315C9811DE3511C00F9CADF /* HTLOrderItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HTLOrderItemCell.xib; sourceTree = "<group>"; };
 		172420310FC22ECC8E0D7373 /* HTLGlobalUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTLGlobalUtilities.h; sourceTree = "<group>"; };
 		172420A85C5A13A8033A8997 /* HTLNumberFormattersLocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTLNumberFormattersLocator.h; sourceTree = "<group>"; };
 		172420F60BEE010D2E0C51A8 /* HTLMenuItem+Mapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HTLMenuItem+Mapping.m"; sourceTree = "<group>"; };
@@ -77,6 +80,7 @@
 		1724230496B96A301150AD97 /* HTLSimpleDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTLSimpleDataSource.m; sourceTree = "<group>"; };
 		1724230E6F6845BBD6E5F64A /* HTLServiceLocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTLServiceLocator.h; sourceTree = "<group>"; };
 		172423380F9DB47DA888320C /* HTLOrderViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTLOrderViewModel.h; sourceTree = "<group>"; };
+		17242352CA8120A9C607D48D /* HTLOrderItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTLOrderItemCell.h; sourceTree = "<group>"; };
 		17242366136A5064627CF190 /* HTLMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTLMenuItem.m; sourceTree = "<group>"; };
 		1724236986AF4D6884E4C1D7 /* HTLServiceLocator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTLServiceLocator.m; sourceTree = "<group>"; };
 		17242431EF67C0269CD1C278 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,6 +108,7 @@
 		17242BD466B69CC598078C46 /* HTLNULLUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTLNULLUtilities.h; sourceTree = "<group>"; };
 		17242C383F6D2F6F69619460 /* HTLOrderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTLOrderItem.h; sourceTree = "<group>"; };
 		17242C5196E2E3B7979D82F8 /* HTLCellParamsContainerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTLCellParamsContainerDelegate.h; sourceTree = "<group>"; };
+		17242D6E9722D94B17C2AFCA /* HTLOrderItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTLOrderItemCell.m; sourceTree = "<group>"; };
 		17242E05E70EDE9A3F2D729D /* HTLOrdersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTLOrdersTableViewController.m; sourceTree = "<group>"; };
 		17242E177C18F6F4856D719D /* HTLMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTLMenuItem.h; sourceTree = "<group>"; };
 		17242E1958F078B9616F643A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -263,6 +268,7 @@
 				17242A8D22B370C3ACE589E3 /* Resources */,
 				17242263A6A3E6BF398748EE /* Controllers */,
 				172426B6C9D1F9E62DD2B0AC /* ViewModels */,
+				17242FE32B71C5B960A92DF0 /* Views */,
 			);
 			path = Orders;
 			sourceTree = "<group>";
@@ -473,6 +479,16 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		17242FE32B71C5B960A92DF0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				17242D6E9722D94B17C2AFCA /* HTLOrderItemCell.m */,
+				17242352CA8120A9C607D48D /* HTLOrderItemCell.h */,
+				1315C9811DE3511C00F9CADF /* HTLOrderItemCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		1C231BC83452607C3FFA8775 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -578,6 +594,7 @@
 			files = (
 				1315C9621DE1D53700F9CADF /* GymList.plist in Resources */,
 				1315C9591DE1CF0700F9CADF /* HTLOrdersTableViewController.xib in Resources */,
+				1315C9821DE3511C00F9CADF /* HTLOrderItemCell.xib in Resources */,
 				1315C95B1DE1D3E100F9CADF /* FoodList.plist in Resources */,
 				1315C9571DE1BD8300F9CADF /* HTLMenuTableViewController.xib in Resources */,
 				1315C9551DE1BD3700F9CADF /* HTLMenuItemCell.xib in Resources */,
@@ -672,6 +689,7 @@
 				172427AD8E9C00DFF0C91F70 /* HTLOrdersListDataProvider.m in Sources */,
 				17242515DC10FF4CF7B4D69A /* HTLOrderViewModel.m in Sources */,
 				17242304B9E14A692A7E65CF /* HTLNumberFormattersLocator.m in Sources */,
+				172425A0396ADE97436DAD76 /* HTLOrderItemCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,8 +6,9 @@
 #import <FastEasyMapping/FEMDeserializer.h>
 #import "HTLOrdersListDataProvider.h"
 #import "HTLGlobalUtilities.h"
+#import "HTLOrderItem.h"
+#import "HTLOrderItem+Mapping.h"
 #import "HTLMenuItem.h"
-#import "HTLMenuItem+Mapping.h"
 
 static NSString *const HTLFoodItemsFileName = @"FoodList.plist";
 static NSString *const HTLSpaItemsFileName = @"SpaList.plist";
@@ -38,7 +39,7 @@ static NSString *const HTLGymItemsFileName = @"GymList.plist";
         NSString *filePath = [self filePathForMenuItem:self.menuItem];
         NSArray *menuRepresentation = [[NSArray alloc] initWithContentsOfFile:filePath];
 
-        self.fetchedObjects = [FEMDeserializer collectionFromRepresentation:menuRepresentation mapping:[HTLMenuItem defaultMapping]];
+        self.fetchedObjects = [FEMDeserializer collectionFromRepresentation:menuRepresentation mapping:[HTLOrderItem defaultMapping]];
 
         dispatch_async(dispatch_get_main_queue(), ^{
             htl_safe_block_call(success, self.fetchedObjects);
