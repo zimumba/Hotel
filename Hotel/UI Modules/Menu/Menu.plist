@@ -7,7 +7,7 @@
 		<string>1</string>
 		<key>order</key>
 		<integer>0</integer>
-		<key>menuTitle</key>
+		<key>menu_title</key>
 		<string>Food</string>
 		<key>related_screen_title</key>
 		<string>Select Food</string>
@@ -19,7 +19,7 @@
 		<string>2</string>
 		<key>order</key>
 		<integer>1</integer>
-		<key>menuTitle</key>
+		<key>menu_title</key>
 		<string>Spa</string>
 		<key>related_screen_title</key>
 		<string>Select Spa</string>
@@ -31,7 +31,7 @@
 		<string>3</string>
 		<key>order</key>
 		<integer>2</integer>
-		<key>menuTitle</key>
+		<key>menu_title</key>
 		<string>Gym</string>
 		<key>related_screen_title</key>
 		<string>Select Gym</string>

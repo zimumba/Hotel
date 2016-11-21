@@ -10,6 +10,7 @@
 #import "HTLMenuItemCell.h"
 #import "NSObject+HTLClassName.h"
 #import "HTLCellParamsContainer.h"
+#import "HTLOrdersTableViewController.h"
 
 @interface HTLMenuTableViewController ()
 
@@ -84,5 +85,11 @@
 }
 
 #pragma mark - UITableViewDelegate
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    HTLOrdersTableViewController *ordersViewController = [[HTLOrdersTableViewController alloc] initWithMenuItem:[self.dataSource objectAtIndex:indexPath.row]];
+    [self.navigationController pushViewController:ordersViewController
+                                         animated:YES];
+}
 
 @end

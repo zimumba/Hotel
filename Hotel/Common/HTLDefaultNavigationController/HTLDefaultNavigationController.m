@@ -7,4 +7,8 @@
 
 @implementation HTLDefaultNavigationController
 
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
+    return UIInterfaceOrientationMaskPortrait;
+}
+
 @end

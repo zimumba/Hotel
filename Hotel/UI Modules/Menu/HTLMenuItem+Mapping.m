@@ -12,11 +12,11 @@
     FEMMapping *mapping = [[FEMMapping alloc] initWithObjectClass:[self class]];
 
     [mapping addAttributesFromDictionary:@{
-            @"identifier": @"uid",
-            @"order": @"order",
-            @"title": @"menuTitle",
-            @"relatedScreenTitle": @"related_screen_title",
-            @"actionType": @"action_type"
+            @"identifier" : @"uid",
+            @"order" : @"order",
+            @"title" : @"menu_title",
+            @"relatedScreenTitle" : @"related_screen_title",
+            @"actionType" : @"action_type"
     }];
 
     return mapping;

@@ -8,6 +8,8 @@ def shared_pods
   pod 'libextobjc'
 
   pod 'FastEasyMapping'
+
+  pod 'ReactiveCocoa', '2.4.7'
 end
 
 target ‘Hotel’ do

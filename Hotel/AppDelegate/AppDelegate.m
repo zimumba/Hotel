@@ -10,6 +10,7 @@
 #import "HTLServiceLocator.h"
 #import "../Common/HTLDefaultNavigationController/HTLDefaultNavigationController.h"
 #import "HTLMenuTableViewController.h"
+#import "NSObject+HTLClassName.h"
 
 @interface AppDelegate ()
 
@@ -25,7 +26,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
 
-    self.window.rootViewController = [[HTLDefaultNavigationController alloc] initWithRootViewController:[[HTLMenuTableViewController alloc] initWithNibName:nil bundle:nil]];
+    self.window.rootViewController = [[HTLDefaultNavigationController alloc] initWithRootViewController:[[HTLMenuTableViewController alloc] initWithNibName:[HTLMenuTableViewController htl_className] bundle:nil]];
 
     [self.window makeKeyAndVisible];
 

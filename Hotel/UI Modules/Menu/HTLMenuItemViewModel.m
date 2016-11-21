@@ -9,6 +9,7 @@
 @interface HTLMenuItemViewModel ()
 
 @property (nonatomic, copy) NSString *menuTitle;
+@property (nonatomic, copy) NSString *relatedScreenTitle;
 
 @end
 
@@ -19,6 +20,7 @@
         _menuItem = menuItem;
 
         self.menuTitle = menuItem.title;
+        self.relatedScreenTitle = menuItem.relatedScreenTitle;
     }
 }
 

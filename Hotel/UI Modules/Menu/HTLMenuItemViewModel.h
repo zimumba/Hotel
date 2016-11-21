@@ -14,5 +14,6 @@
 
 // Output
 @property (nonatomic, copy, readonly) NSString *menuTitle;
+@property (nonatomic, copy, readonly) NSString *relatedScreenTitle;
 
 @end
