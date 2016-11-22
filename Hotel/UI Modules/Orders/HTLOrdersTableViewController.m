@@ -14,6 +14,7 @@
 #import "HTLOrdersListDataProvider.h"
 #import "HTLAlertsFactory.h"
 #import "HTLCellParamsContainer.h"
+#import "HTLOrderDetailsViewController.h"
 
 @interface HTLOrdersTableViewController ()
 
@@ -111,7 +112,9 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-
+    HTLOrderDetailsViewController *orderDetailsViewController = [[HTLOrderDetailsViewController alloc] initWithOrderItem:[self.dataSource objectAtIndex:indexPath.row]];
+    [self.navigationController pushViewController:orderDetailsViewController
+                                         animated:YES];
 }
 
 @end
