@@ -63,7 +63,21 @@
 - (IBAction)confirmOrderButtonAction:(id)sender {
     // Confirmation logic
 
-    [self.navigationController popToRootViewControllerAnimated:YES];
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@""
+                                                                             message:NSLocalizedString(@"Your order was placed", @"")
+                                                                      preferredStyle:UIAlertControllerStyleAlert];
+
+    @weakify(self);
+    UIAlertAction *doneAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+        @strongify(self);
+        [self.navigationController popToRootViewControllerAnimated:YES];
+    }];
+
+    [alertController addAction:doneAction];
+
+    [self presentViewController:alertController
+                       animated:YES
+                     completion:nil];
 }
 
 @end

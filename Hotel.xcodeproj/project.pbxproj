@@ -596,6 +596,7 @@
 				TargetAttributes = {
 					1315C92B1DE1A48800F9CADF = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 676RC7JHF7;
 						ProvisioningStyle = Automatic;
 					};
 					1315C9441DE1A48800F9CADF = {
@@ -856,6 +857,7 @@
 			baseConfigurationReference = 86CD774FDC751CAEA2F260D6 /* Pods-Hotel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 676RC7JHF7;
 				GCC_PREFIX_HEADER = "Hotel/Resources/Hotel-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/Headers/Public\"";
 				INFOPLIST_FILE = "$(SRCROOT)/Hotel/Resources/Info.plist";
@@ -871,6 +873,7 @@
 			baseConfigurationReference = E327C12D89D0644212F7209D /* Pods-Hotel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 676RC7JHF7;
 				GCC_PREFIX_HEADER = "Hotel/Resources/Hotel-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/Headers/Public\"";
 				INFOPLIST_FILE = "$(SRCROOT)/Hotel/Resources/Info.plist";
